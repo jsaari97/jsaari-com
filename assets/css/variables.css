@@ -6,6 +6,8 @@
   --header-font: "Lexend Deca", cursive;
   --body-font: "Crimson Text", cursive;
 
+  --letter-spacing-wide: 0.0375em;
+
   --container-width: calc(100% - 4rem);
   --container-max-width: 56rem;
 
@@ -17,4 +19,10 @@
   --light: #8c969d;
 
   --accent: #1d2465;
+
+  --orange: #EF5019;
+  --yellow: #EFED19;
+  --light-green: #DEEF12;
+  --green: #A4DA50;
+  --dark-green: #3EB6B4;
 }

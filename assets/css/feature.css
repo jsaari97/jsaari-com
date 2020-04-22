@@ -20,8 +20,8 @@
   & svg {
     height: 12rem;
     width: 12rem;
-    fill: #A4DA50;
-    transform: rotate(-12.5deg);
+    fill: var(--green);
+    transform: rotate(-8deg);
   }
 }
 

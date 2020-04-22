@@ -20,6 +20,7 @@
   margin-left: 2rem;
   font-family: var(--header-font);
   color: var(--light);
+  letter-spacing: 0.05em;
 }
 
 @media (--viewport-small) {

@@ -1,8 +1,7 @@
-.logo-start,
-.square-start {
-  stop-color: #DEEF12;
+.primary-gradient-start {
+  stop-color: var(--light-green);
 }
-.logo-end,
-.square-end {
-  stop-color: #59BFA8;
+
+.primary-gradient-end {
+  stop-color: var(--dark-green);
 }
