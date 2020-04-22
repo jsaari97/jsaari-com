@@ -3,8 +3,8 @@
 @custom-media --viewport-large (width > 72em);
 
 :root {
-  --header-font: "Baloo Paaji 2", cursive;
-  --body-font: "Baloo Paaji 2", cursive;
+  --header-font: "Lexend Deca", cursive;
+  --body-font: "Crimson Text", cursive;
 
   --container-width: calc(100% - 4rem);
   --container-max-width: 56rem;

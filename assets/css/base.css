@@ -47,3 +47,7 @@ thead {
   letter-spacing: 0.0325em;
   font-weight: 500;
 }
+
+p {
+  font-size: 1.125rem;
+}

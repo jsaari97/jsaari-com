@@ -18,4 +18,5 @@
 
 .nav--email {
   margin-left: 2rem;
+  font-family: var(--header-font);
 }
