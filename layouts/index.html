@@ -1,11 +1,18 @@
 {{ define "main" }}
 {{ partial "landing/hero.html" . }}
 
-<div>
-  <p class="paragraph center">
+<div class="feature--container">
+  {{ range .Params.features }}
+  {{ partial "feature/index.html" . }}
+  {{ end }}
+</div>
+
+<div class="page--content">
+  <p>
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada, sapien elementum condimentum luctus, felis
     turpis lacinia felis, nec dapibus tellus sapien id turpis. Proin porttitor at nibh eu tristique. Morbi nec vulputate
     ex. Sed in urna condimentum, mollis mi at, dictum magna. Phasellus sit amet sapien mi.
   </p>
 </div>
+
 {{ end }}

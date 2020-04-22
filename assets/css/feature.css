@@ -1,0 +1,35 @@
+.feature--container {
+  display: flex;
+  flex-flow: row wrap;
+  max-width: var(--container-max-width);
+  width: var(--container-width);
+  margin: 0 auto 4rem;
+}
+
+.feature--main {
+  flex: 0 1 calc(33% - 4rem);
+  margin: 0 auto 4rem;
+}
+
+.feature--icon {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+
+  & svg {
+    height: 12rem;
+    width: 12rem;
+    fill: #A4DA50;
+    transform: rotate(-12.5deg);
+  }
+}
+
+.feature--content {
+  text-align: center;
+}
+
+.feature--title {
+  font-size: 1.375rem;
+  margin-bottom: 0.75rem;
+}
