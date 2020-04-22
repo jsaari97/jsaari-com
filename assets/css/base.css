@@ -44,4 +44,5 @@ hgroup,
 thead {
   font-family: var(--header-font);
   color: var(--header);
+  letter-spacing: 0.0325em;
 }

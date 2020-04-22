@@ -1,13 +1,17 @@
 .nav--main {
   display: flex;
   align-items: center;
-  padding: 2rem 8rem;
+  padding: 1.5rem 8rem;
 }
 
 .nav--branding {
   &,
   & svg {
-    width: 2rem;
-    height: 2rem;
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  & svg {
+    transform: rotate(-8deg);
   }
 }

@@ -10,16 +10,28 @@
 .hero--left {
   flex: 0 0 50%;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  text-align: right;
 
   & h1 {
     font-size: 4rem;
-    line-height: 1;
+    font-weight: 500;
+    line-height: 0.95;
+    margin-bottom: 0;
 
     & span {
-      font-size: 0.75em;
+      font-size: 0.6em;
+      font-weight: 400;
+      color: var(--light);
     }
+  }
+
+  & h2 {
+    color: var(--light);
+    font-weight: 400;
+    margin-left: 0.5rem;
   }
 }
 
