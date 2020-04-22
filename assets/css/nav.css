@@ -19,4 +19,15 @@
 .nav--email {
   margin-left: 2rem;
   font-family: var(--header-font);
+  color: var(--light);
+}
+
+@media (--viewport-small) {
+  .nav--main {
+    padding: 1rem;
+  }
+
+  .nav--email {
+    margin-left: 1.375rem;
+  }
 }

@@ -47,3 +47,31 @@
     transform: translate3d(0, -15%, 0) rotate(-15deg);
   }
 }
+
+@media (--viewport-small) {
+  .hero--main {
+    flex-direction: column;
+    padding-top: 6rem;
+  }
+
+  .hero--left,
+  .hero--right {
+    flex: unset;
+  }
+
+  .hero--right {
+    order: -1;
+    justify-content: flex-start;
+    transform: translateX(-45%);
+
+    & svg {
+      width: 18rem;
+      height: 18rem;
+    }
+  }
+
+  .hero--left {
+    margin-top: -9rem;
+    z-index: 2;
+  }
+}

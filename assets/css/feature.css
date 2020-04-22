@@ -33,3 +33,9 @@
   font-size: 1.375rem;
   margin-bottom: 0.75rem;
 }
+
+@media (--viewport-small) {
+  .feature--main {
+    flex-basis: 100%;
+  }
+}
