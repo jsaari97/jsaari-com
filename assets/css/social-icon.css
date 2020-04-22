@@ -1,0 +1,23 @@
+.social-icon {
+  height: 1.875rem;
+  width: 1.875rem;
+  border-radius: 50%;
+  border: 2px solid var(--light);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  & svg {
+    height: 1rem;
+    width: 1rem;
+    fill: var(--light);
+  }
+
+  &:hover {
+    border-color: var(--body);
+
+    & svg {
+      fill: var(--body);
+    }
+  }
+}

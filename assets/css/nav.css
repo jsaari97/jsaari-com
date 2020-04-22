@@ -23,6 +23,23 @@
   letter-spacing: 0.05em;
 }
 
+.nav--social-container {
+  margin-left: auto;
+  display: flex;
+
+  & .social-icon {
+    margin: 0 0.375rem;
+
+    &:first-of-type {
+      margin-left: 0;
+    }
+
+    &:last-of-type {
+      margin-right: 0;
+    }
+  }
+}
+
 @media (--viewport-small) {
   .nav--main {
     padding: 1rem;

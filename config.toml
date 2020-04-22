@@ -4,3 +4,10 @@ title = "Developer Portfolio"
 
 [params]
   email = "jim.saari97@gmail.com"
+  [params.social]
+    [params.social.linkedin]
+      type = "linkedin"
+      url = "https://www.linkedin.com/in/jim-saari"
+    [params.social.github]
+      type = "github"
+      url = "https://github.com/jsaari97"

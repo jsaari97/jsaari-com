@@ -2,7 +2,13 @@
   <a title="home" class="nav--branding" href="/">
     {{ partial "utils/inline-svg.html" "logo" }}
   </a>
+
   <span class="nav--email">
     {{ .Site.Params.email }}
   </span>
+
+  <div class="nav--social-container">
+    {{ partial "common/social-icon.html" .Site.Params.social.linkedin }}
+    {{ partial "common/social-icon.html" .Site.Params.social.github }}
+  </div>
 </nav>

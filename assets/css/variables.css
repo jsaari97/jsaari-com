@@ -18,11 +18,14 @@
   --header: #0C2539;
   --light: #8c969d;
 
-  --accent: #1d2465;
+  --blue: #1d2465;
 
   --orange: #EF5019;
   --yellow: #EFED19;
   --light-green: #DEEF12;
   --green: #A4DA50;
   --dark-green: #3EB6B4;
+
+  --primary: var(--green);
+  --secondary: var(--blue);
 }
