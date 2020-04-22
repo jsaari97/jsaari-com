@@ -1,3 +1,6 @@
 baseURL = "https://www.jsaari.com/"
 languageCode = "en-us"
 title = "Developer Portfolio"
+
+[params]
+  email = "jim.saari97@gmail.com"

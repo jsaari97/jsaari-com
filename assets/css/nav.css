@@ -15,3 +15,7 @@
     transform: rotate(-8deg);
   }
 }
+
+.nav--email {
+  margin-left: 2rem;
+}

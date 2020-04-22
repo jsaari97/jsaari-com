@@ -10,7 +10,7 @@
 </head>
 
 <body>
-  {{ partial "nav/index.html" }}
+  {{ partial "nav/index.html" . }}
   {{ block "main" . }}
   <!-- The part of the page that begins to differ between templates -->
   {{ end }}
