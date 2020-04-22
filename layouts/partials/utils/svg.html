@@ -1,0 +1,3 @@
+<div class="svg--container {{ .class }}">
+  {{ readFile (printf "/static/svg/%s.svg" .name) | safeHTML }}
+</div>

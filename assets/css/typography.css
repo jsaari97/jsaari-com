@@ -1,0 +1,10 @@
+.paragraph {
+  width: var(--container-width);
+  max-width: var(--container-max-width);
+  margin-left: auto;
+  margin-right: auto;
+
+  &.center {
+    text-align: center;
+  }
+}

@@ -1,0 +1,13 @@
+.nav--main {
+  display: flex;
+  align-items: center;
+  padding: 2rem 8rem;
+}
+
+.nav--branding {
+  &,
+  & svg {
+    width: 2rem;
+    height: 2rem;
+  }
+}

@@ -1,0 +1,15 @@
+@custom-media --viewport-small (width <= 56em);
+@custom-media --viewport-medium (width > 56em);
+@custom-media --viewport-large (width > 72em);
+@custom-media --viewport-xlarge (width > 104em);
+
+:root {
+  --header-font: "Baloo Paaji 2", cursive;
+  --body-font: "Baloo Paaji 2", cursive;
+
+  --container-width: calc(100% - 4rem);
+  --container-max-width: 32rem;
+
+  --body: #283748;
+  --header: #182C3C;
+}
