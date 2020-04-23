@@ -1,5 +1,5 @@
 .page--content {
-  margin-bottom: 4rem;
+  margin-bottom: 6rem;
 
   & > :--heading,
   & > p {
@@ -11,5 +11,32 @@
 
   & > p {
     text-align: center;
+  }
+
+  & > :--heading {
+    position: relative;
+
+    &::after {
+      position: absolute;
+      content: "";
+      left: 0;
+      bottom: 0;
+      width: 20%;
+      height: 0.225rem;
+      background-color: var(--primary);
+    }
+  }
+}
+
+@media (--viewport-small) {
+  .page--content {
+    & > :--heading {
+      text-align: center;
+
+      &::after {
+        left: 50%;
+        transform: translateX(-50%);
+      }
+    }
   }
 }
