@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
-  <meta name="description" content="{{ with .Param `description` }}{{ . }}{{ else }}{{ .Site.Param.description }}{{ end }}">
+  <meta name="description" content="{{ .Params.description | default .Site.Params.description }}">
   {{ partial "header/fonts.html" . }}
   {{ partial "header/styles.html" . }}
 </head>
