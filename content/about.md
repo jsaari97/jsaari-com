@@ -8,5 +8,5 @@ based in Kronoby, Finland. Coding is my passion and I'm always striving to
 improve my craft, be it technically or socially.
 
 I have over three years of experience working on exciting and innovative
-projects, leveraging the power of modern JavaScript to build responsive
-and dynamic applications that clients love.
+projects, independently or in teams, leveraging the power of modern
+JavaScript to build responsive and dynamic applications that clients love.

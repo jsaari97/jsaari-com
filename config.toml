@@ -2,8 +2,11 @@ baseURL = "https://www.jsaari.com/"
 languageCode = "en-us"
 title = "Developer Portfolio"
 
+disableKinds = ["taxonomy", "taxonomyTerm"]
+
 [params]
   email = "jim.saari97@gmail.com"
+  description = "This is the default description."
   [params.social]
     [params.social.linkedin]
       type = "linkedin"
