@@ -8,6 +8,11 @@
     </div>
   </div>
   <div class="hero--right">
-    {{ partial "utils/inline-svg.html" "square" }}
+    <div class="hero--profile">
+      <div class="hero-profile-fill"></div>
+      {{ partial "utils/inline-svg.html" "hero-mask-top" }}
+      <img src="{{ `/images/profile.png` | absURL }}">
+      {{ partial "utils/inline-svg.html" "hero-mask-bottom" }}
+    </div>
   </div>
 </div>
