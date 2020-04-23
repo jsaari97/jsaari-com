@@ -57,7 +57,7 @@
   }
 
   & svg:first-of-type {
-    top: 0.175em;
+    top: calc(0.175em + 2px);
   }
 
   & img,
@@ -65,8 +65,13 @@
     bottom: 0;
   }
 
+  & svg:last-of-type {
+    bottom: -2px;
+  }
+
   & svg {
-    width: 1em;
+    left: -2px;
+    width: 1.0125em;
     height: 0.5em;
     fill: #fff;
   }
@@ -106,7 +111,7 @@
 @media (--viewport-small) {
   .hero--main {
     flex-direction: column;
-    padding-top: 4rem;
+    padding-top: 2rem;
     max-height: none;
     height: auto;
     margin-bottom: 4rem;
