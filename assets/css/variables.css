@@ -2,6 +2,8 @@
 @custom-media --viewport-medium (width > 56em);
 @custom-media --viewport-large (width > 72em);
 
+@custom-selector :--heading h1, h2, h3, h4, h5, h6;
+
 :root {
   --header-font: "Lexend Deca", cursive;
   --body-font: "Crimson Text", cursive;
@@ -14,7 +16,7 @@
   --content-width: calc(100% - 4rem);
   --content-max-width: 32rem;
 
-  --body: #546375;
+  --body: #495666;
   --header: #0C2539;
   --light: #8c969d;
 

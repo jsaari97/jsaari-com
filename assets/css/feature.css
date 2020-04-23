@@ -7,7 +7,7 @@
 }
 
 .feature--main {
-  flex: 0 1 calc(33% - 4rem);
+  flex: 0 1 calc(33.3334% - 4rem);
   margin: 0 auto 4rem;
 }
 
@@ -18,10 +18,9 @@
   margin-bottom: 2rem;
 
   & svg {
-    height: 12rem;
-    width: 12rem;
+    height: 10rem;
+    width: 10rem;
     fill: var(--green);
-    transform: rotate(-8deg);
   }
 }
 
@@ -35,6 +34,10 @@
 }
 
 @media (--viewport-small) {
+  .feature--container {
+    margin-bottom: 0;
+  }
+
   .feature--main {
     flex-basis: 100%;
   }
