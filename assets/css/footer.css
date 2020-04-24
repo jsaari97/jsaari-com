@@ -1,0 +1,25 @@
+.footer--main {
+  font-size: 0.875rem;
+  padding: 1rem 0 1.675rem;
+
+  & > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 0.25em;
+    width: var(--container-width);
+    max-width: var(--container-max-width);
+  }
+
+  & a {
+    margin: 0 0.25rem;
+
+    &:first-of-type {
+      margin-left: 0;
+    }
+
+    &:last-of-type {
+      margin-right: 0;
+    }
+  }
+}
