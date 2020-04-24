@@ -1,5 +1,5 @@
-@custom-media --viewport-small (width <= 56em);
-@custom-media --viewport-medium (width > 56em);
+@custom-media --viewport-small (width <= 42em);
+@custom-media --viewport-medium (width > 42em);
 @custom-media --viewport-large (width > 72em);
 
 @custom-selector :--heading h1, h2, h3, h4, h5, h6;
@@ -17,17 +17,23 @@
   --content-max-width: 32rem;
 
   --body: #495666;
-  --header: #0C2539;
-  --light: #8c969d;
+  --header: #0c2539;
+  --light: #697782;
 
   --blue: #1d2465;
 
-  --orange: #EF5019;
-  --yellow: #EFED19;
-  --light-green: #DEEF12;
-  --green: #A4DA50;
-  --dark-green: #3EB6B4;
+  --orange: #ef5019;
+  --yellow: #efed19;
+  --light-green: #deef12;
+  --green: #a4da50;
+  --dark-green: #3eb6b4;
 
   --primary: var(--green);
   --secondary: var(--blue);
+}
+
+@media (--viewport-large) {
+  :root {
+    --light: #859098;
+  }
 }
