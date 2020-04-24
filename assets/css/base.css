@@ -41,3 +41,17 @@ thead {
 p {
   font-size: 1.175rem;
 }
+
+a {
+  color: #0162c5;
+  text-decoration: none;
+
+  &:visited {
+    color: #324fa2;
+  }
+
+  &:hover {
+    color: #014f9e;
+    text-decoration: underline;
+  }
+}
