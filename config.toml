@@ -5,7 +5,6 @@ title = "Jim Saari Portfolio"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 
 [params]
-  email = "jim.saari97@gmail.com"
   description = "This is the default description."
   repoURL = "https://github.com/jsaari97/jsaari-com"
   [params.social]
@@ -15,3 +14,8 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     [params.social.github]
       type = "github"
       url = "https://github.com/jsaari97"
+  [params.contact]
+    name = "Jim Saari"
+    phone = "+358 505 411606"
+    location = "Kronoby, Finland"
+    email = "jim.saari97@gmail.com"
