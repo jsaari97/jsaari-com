@@ -73,7 +73,7 @@
     left: -2px;
     width: 1.0125em;
     height: 0.5em;
-    fill: #fff;
+    fill: var(--background);
   }
 
   & img {

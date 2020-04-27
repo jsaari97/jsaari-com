@@ -30,6 +30,7 @@
 
   --primary: var(--green);
   --secondary: var(--blue);
+  --background: #fafafb;
 }
 
 @media (--viewport-large) {
