@@ -1,0 +1,8 @@
+---
+title: "{{ replace .Name "-" " " | title }}"
+date: {{ .Date }}
+languages: []
+description: ""
+repository: "https://github.com/jsaari97/"
+homepage: ""
+---

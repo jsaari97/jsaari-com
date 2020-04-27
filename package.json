@@ -6,7 +6,7 @@
   "author": "Jim Saari",
   "license": "MIT",
   "scripts": {
-    "svg": "svgo -f static/svg --disable=removeViewBox"
+    "svg": "svgo -r -f static/svg --disable=removeViewBox"
   },
   "devDependencies": {
     "cssnano": "^4.1.10",
