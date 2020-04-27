@@ -1,6 +1,6 @@
 .hero--main {
   max-width: 56rem;
-  max-height: 72rem;
+  max-height: 56rem;
   width: calc(100% - 4rem);
   height: 85vh;
   margin: 0 auto;
