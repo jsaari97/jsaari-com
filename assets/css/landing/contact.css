@@ -28,6 +28,11 @@
   & li:first-of-type {
     font-size: 1.375rem;
     font-weight: 600;
+    color: var(--header);
+  }
+
+  & li {
+    letter-spacing: 0.0425em;
   }
 }
 
