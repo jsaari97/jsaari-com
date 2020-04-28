@@ -3,7 +3,7 @@ a.jsaari-social-icon {
   height: 1.875rem;
   width: 1.875rem;
   border-radius: 50%;
-  border: 2px solid var(--light);
+  border: 1px solid var(--light);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -16,6 +16,6 @@ a.jsaari-social-icon {
 
   &:hover {
     border-color: var(--body);
-    background-color: rgba(125, 125, 125, 0.05);
+    background-color: rgba(185, 185, 185, 0.05);
   }
 }
