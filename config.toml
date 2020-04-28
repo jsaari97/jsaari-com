@@ -19,3 +19,6 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     phone = "+358 505 411606"
     location = "Kronoby, Finland"
     email = "jim.saari97@gmail.com"
+  [params.ackee]
+    server = "https://ackee.jsaari.com"
+    domainId = "6251545d-4256-4034-b057-782a8059101c"
