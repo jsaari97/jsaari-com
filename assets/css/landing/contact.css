@@ -15,6 +15,10 @@
   margin-bottom: 4rem;
 }
 
+.landing--contact-right {
+  align-items: flex-start;
+}
+
 .landing--contact-title {
   font-size: 1.5rem;
 }
