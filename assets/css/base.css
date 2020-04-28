@@ -14,6 +14,16 @@ html {
 body {
   min-height: 100vh;
   background-color: var(--background);
+  display: flex;
+  flex-direction: column;
+}
+
+.site-header {
+  flex: 0 0 auto;
+}
+
+.site-content {
+  flex: 1 0 auto;
 }
 
 :--heading,

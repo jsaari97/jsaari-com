@@ -13,8 +13,12 @@
 </head>
 
 <body>
-  {{ partial "nav/index.html" . }}
-  {{ block "main" . }}{{ end }}
+  <header class="site-header">
+    {{ partial "nav/index.html" . }}
+  </header>
+  <div class="site-content">
+    {{ block "main" . }}{{ end }}
+  </div>
   {{ block "footer" . }}{{ partial "footer/index.html" . }}{{ end }}
 </body>
 
