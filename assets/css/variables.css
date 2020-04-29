@@ -27,6 +27,7 @@
   --light-green: #deef12;
   --green: #a4da50;
   --dark-green: #3eb6b4;
+  --darker-green: #34a5a3;
 
   --primary: var(--green);
   --secondary: var(--blue);

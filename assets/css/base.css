@@ -54,15 +54,15 @@ p {
 }
 
 a {
-  color: #0162c5;
+  color: var(--darker-green);
   text-decoration: none;
 
   &:visited {
-    color: #324fa2;
+    color: #1b7777;
   }
 
   &:hover {
-    color: #014f9e;
+    color: #166d66;
     text-decoration: underline;
   }
 }

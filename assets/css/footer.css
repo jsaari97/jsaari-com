@@ -1,12 +1,13 @@
 .footer--main {
   font-size: 0.875rem;
-  padding: 1rem 0 1.675rem;
+  padding: 1rem 0 1.5rem;
 
   & > div {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 auto 0.25em;
+    flex-wrap: wrap;
+    margin: 0 auto;
     width: var(--container-width);
     max-width: var(--container-max-width);
   }
@@ -20,6 +21,27 @@
 
     &:last-of-type {
       margin-right: 0;
+    }
+  }
+
+  & span::before {
+    content: "";
+    height: 1em;
+    width: 2px;
+    vertical-align: middle;
+    display: inline-block;
+    background-color: var(--light);
+    margin: 0 0.75rem 0.175em;
+  }
+}
+
+@media (--viewport-small) {
+  .footer--main span {
+    flex: 0 0 100%;
+    text-align: center;
+
+    &::before {
+      display: none;
     }
   }
 }
