@@ -3,15 +3,15 @@ title: Home
 
 features:
   - title: Frontend
-    icon: brush
+    image: /images/frontend.png
     text: |
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada, sapien elementum condimentum luctus, felis turpis lacinia felis, nec dapibus tellus sapien id turpis.
   - title: Backend
-    icon: database
+    image: /images/backend.png
     text: |
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada, sapien elementum condimentum luctus, felis turpis lacinia felis, nec dapibus tellus sapien id turpis.
   - title: DevOps
-    icon: cloud-check
+    image: /images/devops.png
     text: |
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada, sapien elementum condimentum luctus, felis turpis lacinia felis, nec dapibus tellus sapien id turpis.
 ---

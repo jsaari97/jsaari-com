@@ -11,17 +11,17 @@
   margin: 0 auto 4rem;
 }
 
-.feature--icon {
+.feature--picture-container {
   width: 100%;
   display: flex;
   justify-content: center;
   margin-bottom: 2rem;
+}
 
-  & svg {
-    height: 10rem;
-    width: 10rem;
-    fill: var(--green);
-  }
+.feature--picture {
+  width: 12rem;
+  height: 12rem;
+  object-fit: contain;
 }
 
 .feature--content {
