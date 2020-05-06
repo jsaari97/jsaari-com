@@ -12,7 +12,7 @@
   {{ partial "header/scripts.html" . }}
 </head>
 
-<body>
+<body class="{{ with .IsHome }}is-home{{ end }}">
   <header class="site-header">
     {{ partial "nav/index.html" . }}
   </header>

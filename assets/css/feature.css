@@ -37,10 +37,6 @@
 }
 
 @media (--viewport-small) {
-  .feature--container {
-    margin-bottom: 0;
-  }
-
   .feature--main {
     flex-basis: 100%;
   }
