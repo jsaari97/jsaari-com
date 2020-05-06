@@ -3,12 +3,12 @@
   flex-flow: row wrap;
   max-width: var(--container-max-width);
   width: var(--container-width);
-  margin: 0 auto 4rem;
+  margin: 0 auto;
 }
 
 .feature--main {
   flex: 0 1 calc(33.3334% - 4rem);
-  margin: 0 auto 4rem;
+  margin: 0 auto var(--spacing);
 }
 
 .feature--picture-container {
@@ -30,6 +30,10 @@
 
 .feature--title {
   font-size: 1.375rem;
+}
+
+.feature--text {
+  margin-bottom: 0;
 }
 
 @media (--viewport-small) {

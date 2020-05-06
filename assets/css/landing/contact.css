@@ -9,7 +9,7 @@
 
 .landing--contact-profile,
 .landing--contact-content {
-  margin: 0 2rem 4rem;
+  margin: 0 2rem var(--spacing);
 }
 
 .landing--contact-title {

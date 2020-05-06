@@ -1,6 +1,7 @@
 @custom-media --viewport-small (width <= 42em);
 @custom-media --viewport-medium (width > 42em);
 @custom-media --viewport-large (width > 72em);
+@custom-media --viewport-xlarge (width > 92em);
 
 @custom-selector :--heading h1, h2, h3, h4, h5, h6;
 
@@ -32,10 +33,19 @@
   --primary: var(--green);
   --secondary: var(--blue);
   --background: #fafafb;
+
+  --spacing: 4rem;
 }
 
 @media (--viewport-large) {
   :root {
     --light: #859098;
+    --spacing: 6rem;
+  }
+}
+
+@media (--viewport-xlarge) {
+  :root {
+    --spacing: 8rem;
   }
 }
