@@ -5,7 +5,7 @@ title = "Jim Saari Portfolio"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 
 [params]
-  description = "This is the default description."
+  description = "Personal developer portfolio for Jim Saari, passionate full stack web developer from Finland specialized working with modern JavaScript applications."
   repoURL = "https://github.com/jsaari97/jsaari-com"
   [params.social]
     [params.social.linkedin]
