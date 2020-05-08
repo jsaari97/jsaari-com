@@ -36,6 +36,10 @@
 }
 
 @media (--viewport-small) {
+  .footer--main {
+    font-size: 0.925rem;
+  }
+
   .footer--main span {
     flex: 0 0 100%;
     text-align: center;
