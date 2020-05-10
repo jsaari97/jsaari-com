@@ -15,3 +15,8 @@
 {{ partial "landing/contact.html" . }}
 
 {{ end }}
+
+{{ define "scripts" }}
+{{ $js := resources.Get "js/landing.js" | babel }}
+<script src="{{$js.RelPermalink}}"></script>
+{{ end }}
