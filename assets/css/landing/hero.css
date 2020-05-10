@@ -120,6 +120,12 @@
   }
 }
 
+@media (--viewport-xlarge) {
+  .hero--profile {
+    font-size: 26rem;
+  }
+}
+
 @media (--viewport-small) {
   .hero--main {
     flex-direction: column;
