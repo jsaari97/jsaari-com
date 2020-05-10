@@ -30,6 +30,11 @@
 
   & li {
     letter-spacing: 0.0425em;
+
+    & > a {
+      color: currentColor;
+      text-decoration-color: var(--primary);
+    }
   }
 }
 

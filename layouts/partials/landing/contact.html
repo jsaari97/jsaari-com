@@ -7,10 +7,14 @@
         {{ .Site.Params.contact.name }}
       </li>
       <li>
-        {{ .Site.Params.contact.phone }}
+        <a href="tel:{{ .Site.Params.contact.phone }}">
+          {{ .Site.Params.contact.phone }}
+        </a>
       </li>
       <li>
-        {{ .Site.Params.contact.email }}
+        <a href="mailto:{{ .Site.Params.contact.email }}">
+          {{ .Site.Params.contact.email }}
+        </a>
       </li>
       <li>
         {{ .Site.Params.contact.location }}
