@@ -1,8 +1,7 @@
 .page--content {
   margin-bottom: var(--spacing);
 
-  & > :--heading,
-  & > p {
+  & > * {
     width: var(--content-width);
     max-width: var(--content-max-width);
     margin-left: auto;
