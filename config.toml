@@ -4,6 +4,14 @@ title = "Jim Saari Portfolio"
 
 disableKinds = ["taxonomy", "taxonomyTerm"]
 
+# sectionPagesMenu = "main"
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    title = "Blog"
+    url = "/blog/"
+
 [params]
   description = "Personal developer portfolio for Jim Saari, passionate full stack web developer from Finland specialized working with modern JavaScript applications."
   repoURL = "https://github.com/jsaari97/jsaari-com"
