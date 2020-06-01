@@ -7,6 +7,9 @@
     {{ $currentPage := . }}
     {{ range .Site.Menus.main }}
     {{ $class := cond (or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .)) " active" "" }}
+    {{ if and (findRE `^/posts/` $currentPage.RelPermalink) (eq .Identifier "posts") }}
+      {{ $class = " active" }}
+    {{ end }}
     <li class="nav-item{{ $class }}">
       <a href="{{ .URL }}" title="{{ .Title }}">
         {{ .Title }}
