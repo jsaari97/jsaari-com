@@ -46,7 +46,7 @@
     }
   }
 
-  body.is-home .page--content {
+  body.home .page--content {
     padding: 2rem 0;
   }
 }

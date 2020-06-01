@@ -13,7 +13,7 @@
   {{ partial "header/scripts.html" . }}
 </head>
 
-<body class="{{ with .IsHome }}is-home{{ end }}">
+<body class="{{ .Kind }} {{ .Type }}">
   <header class="site-header">
     {{ partial "nav/index.html" . }}
   </header>
