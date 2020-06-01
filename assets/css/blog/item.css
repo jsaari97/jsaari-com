@@ -28,14 +28,14 @@
   }
 
   & > .post-meta {
-    font-size: 1.25rem;
+    font-size: 1rem;
     color: var(--body);
     display: flex;
     align-items: center;
 
     & > img {
-      height: 3.25rem;
-      width: 3.25rem;
+      height: 3em;
+      width: 3em;
       border-radius: 50%;
       filter: grayscale(1) contrast(1.125) brightness(1.1);
     }
@@ -49,12 +49,12 @@
         color: var(--header);
         display: block;
         margin-bottom: 0.25rem;
-        font-size: 1.375rem;
+        font-size: 1.25em;
       }
 
       & > time {
         display: block;
-        font-size: 0.975rem;
+        font-size: 0.925em;
       }
     }
   }
