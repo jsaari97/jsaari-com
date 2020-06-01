@@ -1,0 +1,10 @@
+.post-meta {
+  color: var(--light);
+
+  & > span {
+    & > address {
+      display: inline;
+      font-style: normal;
+    }
+  }
+}

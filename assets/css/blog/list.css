@@ -39,9 +39,9 @@
       }
     }
 
-    & > .post-item-meta p {
+    & > .post-meta {
+      margin-bottom: 1.5rem;
       font-size: 0.95rem;
-      color: var(--light);
     }
   }
 }

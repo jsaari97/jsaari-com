@@ -2,7 +2,7 @@
   <header>
     {{ if (isset .Params "image") }}
     <a title="{{ .Title }}" href="{{ .RelPermalink }}">
-      <img loading="lazy" alt="{{ .Title }}" src="{{ .Params.image | relURL }}">
+      <img width="576" height="216" loading="lazy" alt="{{ .Title }}" src="{{ .Params.image | relURL }}">
     </a>
     {{ end }}
     <h2 class="underline">
@@ -10,8 +10,8 @@
         {{ .Title }}
       </a>
     </h2>
-    <div class="post-item-meta">
-      <p>
+    <div class="post-meta">
+      <span>
         <time datetime="{{ .Date.Format `2006-01-02T15:04:05Z0700` }}">
           {{ .Date.Format .Site.Params.dateFormat }}
         </time>
@@ -19,7 +19,7 @@
         <address>
           {{ .Site.Params.author }}
         </address>
-      </p>
+      </span>
     </div>
   </header>
   <p>
