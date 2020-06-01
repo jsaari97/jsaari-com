@@ -8,7 +8,7 @@
       <img src="{{ `/images/avatar.png` | relURL }}">
       <div>
         <address>Jim Saari</address>
-        <time datetime="{{ .Date.Format `2006-01-02T15:04:05Z0700` }}">{{ .Date.Format .Site.Params.dateFormat }}</time>
+        <span><time datetime="{{ .Date.Format `2006-01-02T15:04:05Z0700` }}">{{ .Date.Format .Site.Params.dateFormat }}</time> &middot; {{ .ReadingTime }} min</span>
       </div>
     </div>
   </header>
