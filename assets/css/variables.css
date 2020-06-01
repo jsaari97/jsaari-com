@@ -35,6 +35,8 @@
   --background: #fafafb;
 
   --spacing: 4rem;
+
+  --box-shadow: 0 10px 18px -14px rgba(0, 0, 0, 0.225);
 }
 
 @media (--viewport-large) {
