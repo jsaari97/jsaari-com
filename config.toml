@@ -1,5 +1,5 @@
 baseURL = "https://www.jsaari.com/"
-languageCode = "en-us"
+languageCode = "en"
 title = "Jim Saari Portfolio"
 
 disableKinds = ["taxonomy", "taxonomyTerm"]
