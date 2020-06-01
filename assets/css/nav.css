@@ -20,11 +20,13 @@
 }
 
 .nav--menu {
+  display: flex;
   list-style: none;
   padding: 0;
   margin: 0 2rem 0 auto;
 
   & .nav-item {
+    font-size: 0.925rem;
     margin-right: 2rem;
     font-family: var(--header-font);
     color: var(--body);
@@ -35,6 +37,24 @@
 
     & > a {
       color: currentColor;
+    }
+
+    &.active {
+      position: relative;
+      color: var(--header);
+
+      &::before {
+        content: "";
+        position: absolute;
+        bottom: -4px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        width: 50%;
+        height: 4px;
+        border-radius: 2px;
+        background-color: var(--primary);
+      }
     }
   }
 }

@@ -8,6 +8,10 @@ summaryLength = 25
 
 [menu]
   [[menu.main]]
+    identifier = "home"
+    title = "Home"
+    url = "/"
+  [[menu.main]]
     identifier = "posts"
     title = "Blog"
     url = "/blog/"
@@ -15,6 +19,8 @@ summaryLength = 25
 [params]
   description = "Personal developer portfolio for Jim Saari, passionate full stack web developer from Finland specialized working with modern JavaScript applications."
   repoURL = "https://github.com/jsaari97/jsaari-com"
+  dateFormat = "2 January, 2006"
+  author = "Jim"
   [params.social]
     [params.social.linkedin]
       type = "linkedin"
