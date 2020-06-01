@@ -1,5 +1,5 @@
 .blog-list-header {
-  padding: 3rem 0 0;
+  padding: 2rem 0;
   margin-bottom: var(--spacing);
 
   & > h1 {

@@ -1,6 +1,6 @@
 ---
 title: Blog
-subtitle: A personal technology blog where I write about interesting stuff happening in the digital and real world.
+subtitle: A personal blog where I write notes for future use and things I find interesting in the digital world.
 url: /blog
 aliases:
   - /posts

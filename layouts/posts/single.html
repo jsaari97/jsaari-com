@@ -5,15 +5,11 @@
     <img alt="{{ .Title }}" src="{{ .Params.image | relURL }}">
     <h1 class="underline">{{ .Title }}</h1>
     <div class="post-meta">
-      <span>
-        <time datetime="{{ .Date.Format `2006-01-02T15:04:05Z0700` }}">
-          {{ .Date.Format .Site.Params.dateFormat }}
-        </time>
-        by
-        <address>
-          {{ .Site.Params.author }}
-        </address>
-      </span>
+      <img src="{{ `/images/avatar.png` | relURL }}">
+      <div>
+        <address>Jim Saari</address>
+        <time datetime="{{ .Date.Format `2006-01-02T15:04:05Z0700` }}">{{ .Date.Format .Site.Params.dateFormat }}</time>
+      </div>
     </div>
   </header>
   {{ .Content }}
