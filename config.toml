@@ -4,7 +4,7 @@ title = "Jim Saari Portfolio"
 
 disableKinds = ["taxonomy", "taxonomyTerm"]
 
-# sectionPagesMenu = "main"
+summaryLength = 25
 
 [menu]
   [[menu.main]]

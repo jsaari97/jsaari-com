@@ -1,3 +1,24 @@
+.blog-list-header {
+  padding: 3rem 0 0;
+  margin-bottom: var(--spacing);
+
+  & > h1 {
+    font-size: 3rem
+  }
+
+  & > p {
+    font-size: 1.25rem;
+  }
+}
+
 .post-item {
   margin: 0 auto var(--spacing);
+
+  & > h2 {
+    color: var(--header);
+
+    & > a {
+      color: currentColor;
+    }
+  }
 }

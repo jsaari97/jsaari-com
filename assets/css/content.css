@@ -11,6 +11,11 @@
   & > p {
     text-align: center;
   }
+
+  & > h1 {
+    font-size: 3rem;
+    margin: calc(var(--spacing) / 3) auto var(--spacing);
+  }
 }
 
 .page--content > :--heading,
