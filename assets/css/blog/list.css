@@ -33,6 +33,7 @@
     & > h2 {
       color: var(--header);
       margin-bottom: 0.75rem;
+      font-size: 1.75rem;
 
       & > a {
         color: currentColor;
