@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ block "title" . }}{{- with .Title }}{{ . }} - {{ end }}{{ .Site.Title -}}{{ end }}</title>
+  <title>{{ block "title" . }}{{ partial "utils/title.html" . }}{{ end }}</title>
   <meta name="description" content="{{ .Params.description | default .Site.Params.description }}">
   {{ partial "header/open-graph.html" . }}
   {{ partial "header/favicons.html" . }}
