@@ -16,6 +16,16 @@
     font-size: 3rem;
     margin: calc(var(--spacing) / 3) auto var(--spacing);
   }
+
+  & li {
+    font-size: 1.125rem;
+  }
+
+  & pre {
+    font-size: 0.875rem;
+    padding: 0.5rem 0.5rem 0.5rem 0.75rem;
+    border-radius: 0.25rem;
+  }
 }
 
 .page--content > :--heading,
