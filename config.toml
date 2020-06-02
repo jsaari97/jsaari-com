@@ -36,3 +36,9 @@ summaryLength = 25
   [params.ackee]
     server = "https://ackee.jsaari.com"
     domainId = "6251545d-4256-4034-b057-782a8059101c"
+
+[imaging]
+resampleFilter = "box"
+quality = 75
+anchor = "smart"
+bgColor = "#fafafb"

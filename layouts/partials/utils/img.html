@@ -1,32 +1,26 @@
 {{ $src := .Page.Resources.GetMatch .Params.image }}
 
-{{ $lqipw := default "20x" }}
-{{ $smallw := default "512x" }}
-{{ $mediumw := default "1200x" }}
-{{ $largew := default "1500x" }}
-
-{{ $lqip := $src.Resize $lqipw }}
-{{ $small := $src.Resize $smallw }}
-{{ $medium := $src.Resize $mediumw }}
-{{ $large := $src.Resize $largew }}
+{{ $preview := $src.Resize "20x jpg" }}
+{{ $small := $src.Resize "500x jpg" }}
+{{ $medium := $src.Resize "1000x jpg" }}
+{{ $large := $src.Resize "1500x jpg" }}
 
 {{ $img := imageConfig ($src.RelPermalink | printf "content/%s" ) }}
 
-<div class="img"{{ if (eq $src.MediaType.SubType "jpeg") }}style="background-image:url(data:{{ $src.MediaType }};base64,{{ $lqip.Content | base64Encode }})"{{ end }}>
+<div class="img"{{ if (eq $src.MediaType.SubType "jpeg") }}style="background-image:url(data:{{ $src.MediaType }};base64,{{ $preview.Content | base64Encode }})"{{ end }}>
   <svg width="{{ $img.Width }}" height="{{ $img.Height }}" aria-hidden="true"></svg>
   <img
     loading="lazy"
     srcset="
-    {{ if ge $src.Width `512` }}
-      {{ with $small.RelPermalink }}, {{ . }} 512w{{ end }}
+    {{ if ge $src.Width `500` }}
+      {{ with $small.RelPermalink }}{{ . }} 500w,{{ end }}
     {{ end }}
-    {{ if ge $src.Width `1200` }}
-      {{ with $medium.RelPermalink }}, {{ . }} 1200w{{ end }}
-    {{ end }}
+    {{ if ge $src.Width `1000` }}
+      {{ $medium.RelPermalink }}{{ else }}{{ $src.RelPermalink }}{{ end }} 1200w
     {{ if ge $src.Width `1500` }}
       {{ with $large.RelPermalink }}, {{ . }} 1500w{{ end }}
     {{ end }}"
-    src="{{ with $medium.RelPermalink }}{{ . }}{{ else }}{{ $src.RelPermalink }}{{ end }}"
+    src="{{ $small.RelPermalink }}"
     width="{{ $img.Width }}"
     height="{{ $img.Height }}"
     alt="{{ with .Params.alt }}{{ . }}{{ else }}{{ .Title }}{{ end }}"

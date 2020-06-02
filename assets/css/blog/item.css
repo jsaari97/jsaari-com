@@ -1,5 +1,5 @@
 .post-header {
-  max-width: 82rem;
+  max-width: 72rem;
   margin-bottom: calc(var(--spacing) / 1.25);
   padding-top: 2rem;
 
@@ -42,7 +42,6 @@
       height: 3em;
       width: 3em;
       border-radius: 50%;
-      filter: grayscale(1) contrast(1.125) brightness(1.1);
     }
 
     & > div {
