@@ -1,0 +1,18 @@
+.img {
+  position: relative;
+  background-size: cover;
+
+  & svg,
+  & img {
+    margin: 0;
+    width: 100%;
+  }
+
+  & img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: auto;
+    object-fit: cover;
+  }
+}

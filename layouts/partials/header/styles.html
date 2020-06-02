@@ -1,2 +1,10 @@
 {{ $style := resources.Get "css/index.css" | resources.PostCSS (dict "config" "./postcss.config.js" "inlineImports" true) }}
 <link rel="stylesheet" href="{{ $style.RelPermalink }}">
+
+<style>
+  .img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+</style>

@@ -1,8 +1,7 @@
 .page--content {
   margin-bottom: var(--spacing);
 
-  & > :--heading,
-  & > p {
+  & > * {
     width: var(--content-width);
     max-width: var(--content-max-width);
     margin-left: auto;
@@ -11,6 +10,21 @@
 
   & > p {
     text-align: center;
+  }
+
+  & > h1 {
+    font-size: 3rem;
+    margin: calc(var(--spacing) / 3) auto var(--spacing);
+  }
+
+  & li {
+    font-size: 1.125rem;
+  }
+
+  & pre {
+    font-size: 0.875rem;
+    padding: 0.5rem 0.5rem 0.5rem 0.75rem;
+    border-radius: 0.25rem;
   }
 }
 
@@ -47,7 +61,7 @@
     }
   }
 
-  body.is-home .page--content {
+  body.home .page--content {
     padding: 2rem 0;
   }
 }

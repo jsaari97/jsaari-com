@@ -17,6 +17,8 @@
 {{ end }}
 
 {{ define "scripts" }}
-{{ $js := resources.Get "js/landing.js" | babel }}
-<script src="{{$js.RelPermalink}}"></script>
+
+{{ $JS := resources.Get "js/landing.js" | babel }}
+<script src="{{ $JS.RelPermalink }}"></script>
+
 {{ end }}

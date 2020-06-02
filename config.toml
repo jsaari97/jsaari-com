@@ -1,12 +1,25 @@
 baseURL = "https://www.jsaari.com/"
-languageCode = "en-us"
+languageCode = "en"
 title = "Jim Saari Portfolio"
 
 disableKinds = ["taxonomy", "taxonomyTerm"]
 
+summaryLength = 25
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    title = "Home"
+    url = "/"
+  [[menu.main]]
+    identifier = "posts"
+    title = "Blog"
+    url = "/blog/"
+
 [params]
   description = "Personal developer portfolio for Jim Saari, passionate full stack web developer from Finland specialized working with modern JavaScript applications."
   repoURL = "https://github.com/jsaari97/jsaari-com"
+  dateFormat = "2 January, 2006"
   [params.social]
     [params.social.linkedin]
       type = "linkedin"
@@ -16,6 +29,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
       url = "https://github.com/jsaari97"
   [params.contact]
     name = "Jim Saari"
+    nameShort = "Jim"
     phone = "+358 505 411606"
     location = "Kronoby, Finland"
     email = "jim.saari97@gmail.com"

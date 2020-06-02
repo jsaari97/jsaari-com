@@ -1,11 +1,22 @@
 <nav class="nav--main">
-  <a title="home" aria-label="home" class="nav--branding" href="/">
+  <a title="Home" aria-label="Home" class="nav--branding" href="/">
     {{ partial "utils/inline-svg.html" "logo" }}
   </a>
 
-  <span class="nav--email">
-    {{ .Site.Params.contact.email }}
-  </span>
+  <ul class="nav--menu">
+    {{ $currentPage := . }}
+    {{ range .Site.Menus.main }}
+    {{ $class := cond (or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .)) " active" "" }}
+    {{ if and (findRE `^/posts/` $currentPage.RelPermalink) (eq .Identifier "posts") }}
+      {{ $class = " active" }}
+    {{ end }}
+    <li class="nav-item{{ $class }}">
+      <a href="{{ .URL }}" title="{{ .Title }}">
+        {{ .Title }}
+      </a>
+    </li>
+    {{ end }}
+  </ul>
 
   <div class="nav--social-container">
     {{ partial "common/social-icon.html" .Site.Params.social.linkedin }}

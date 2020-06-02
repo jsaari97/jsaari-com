@@ -1,0 +1,14 @@
+{{ define "main" }}
+
+<div class="page--content">
+  <header class="blog-list-header">
+    <h1 class="underline">{{ .Title }}</h1>
+    <p>{{ .Params.subtitle }}</p>
+  </header>
+
+  {{ range .Pages }}
+  {{ .Render "li" }}
+  {{ end }}
+</div>
+
+{{ end }}

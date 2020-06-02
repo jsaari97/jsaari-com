@@ -1,0 +1,29 @@
+<article class="post-item">
+  <header>
+    {{ if (isset .Params "image") }}
+    <a title="{{ .Title }}" href="{{ .RelPermalink }}">
+      {{ partial "utils/img.html" . }}
+    </a>
+    {{ end }}
+    <h2 class="underline">
+      <a title="{{ .Title }}" href="{{ .RelPermalink }}">
+        {{ .Title }}
+      </a>
+    </h2>
+    <div class="post-meta">
+      <span>
+        <time datetime="{{ .Date.Format `2006-01-02T15:04:05Z0700` }}">
+          {{ .Date.Format .Site.Params.dateFormat }}
+        </time>
+        by
+        <address>
+          {{ .Site.Params.contact.nameShort }}
+        </address>
+        &middot; {{ .ReadingTime }} min
+      </span>
+    </div>
+  </header>
+  <p>
+    {{ .Summary }}
+  </p>
+</article>
