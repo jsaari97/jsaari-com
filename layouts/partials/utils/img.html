@@ -26,7 +26,7 @@
     {{ if ge $src.Width `1500` }}
       {{ with $large.RelPermalink }}, {{ . }} 1500w {{ end }}
     {{ end }}"
-    src="{{ cond (isset $medium `RelPermalink`) $medium.RelPermalink $src.RelPermalink }}"
+    src="{{ with $medium.RelPermalink }}{{ . }}{{ else }}{{ $src.RelPermalink }}{{ end }}"
     width="{{ $img.Width }}"
     height="{{ $img.Height }}"
     alt="{{ with .Params.alt }}{{ . }}{{ else }}{{ .Title }}{{ end }}"
