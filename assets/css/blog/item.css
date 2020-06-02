@@ -4,25 +4,14 @@
   padding-top: 2rem;
 
   & > .img {
-    position: relative;
-    max-height: 22rem;
     margin-bottom: 4rem;
     border-radius: 0.5rem;
     overflow: hidden;
 
+    &,
     & svg,
     & img {
-      margin: 0;
-      width: 100%;
-      height: auto;
       max-height: 22rem;
-    }
-
-    & img {
-      position: absolute;
-      top: 0;
-      left: 0;
-      object-fit: cover;
     }
   }
 
