@@ -1,7 +1,7 @@
 {{ $src := .Page.Resources.GetMatch .Params.image }}
 
 {{ $lqipw := default "20x" }}
-{{ $smallw := default "800x" }}
+{{ $smallw := default "512x" }}
 {{ $mediumw := default "1200x" }}
 {{ $largew := default "1500x" }}
 
@@ -17,14 +17,14 @@
   <img
     loading="lazy"
     srcset="
-    {{ if ge $src.Width `800` }}
-      {{ with $small.RelPermalink }}, {{ . }} 800w{{ end }}
+    {{ if ge $src.Width `512` }}
+      {{ with $small.RelPermalink }}, {{ . }} 512w{{ end }}
     {{ end }}
     {{ if ge $src.Width `1200` }}
       {{ with $medium.RelPermalink }}, {{ . }} 1200w{{ end }}
     {{ end }}
     {{ if ge $src.Width `1500` }}
-      {{ with $large.RelPermalink }}, {{ . }} 1500w {{ end }}
+      {{ with $large.RelPermalink }}, {{ . }} 1500w{{ end }}
     {{ end }}"
     src="{{ with $medium.RelPermalink }}{{ . }}{{ else }}{{ $src.RelPermalink }}{{ end }}"
     width="{{ $img.Width }}"
