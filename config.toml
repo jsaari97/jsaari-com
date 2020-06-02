@@ -20,7 +20,6 @@ summaryLength = 25
   description = "Personal developer portfolio for Jim Saari, passionate full stack web developer from Finland specialized working with modern JavaScript applications."
   repoURL = "https://github.com/jsaari97/jsaari-com"
   dateFormat = "2 January, 2006"
-  author = "Jim"
   [params.social]
     [params.social.linkedin]
       type = "linkedin"
@@ -30,6 +29,7 @@ summaryLength = 25
       url = "https://github.com/jsaari97"
   [params.contact]
     name = "Jim Saari"
+    nameShort = "Jim"
     phone = "+358 505 411606"
     location = "Kronoby, Finland"
     email = "jim.saari97@gmail.com"
