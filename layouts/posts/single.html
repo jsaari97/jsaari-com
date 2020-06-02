@@ -2,7 +2,7 @@
 
 <div class="page--content">
   <header class="post-header">
-    <img alt="{{ .Title }}" src="{{ .Params.image | relURL }}">
+    {{ partial "utils/img.html" . }}
     <h1 class="underline">{{ .Title }}</h1>
     <div class="post-meta">
       <img src="{{ `/images/avatar.png` | relURL }}">

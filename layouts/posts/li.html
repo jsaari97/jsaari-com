@@ -2,7 +2,7 @@
   <header>
     {{ if (isset .Params "image") }}
     <a title="{{ .Title }}" href="{{ .RelPermalink }}">
-      <img width="576" height="216" loading="lazy" alt="{{ .Title }}" src="{{ .Params.image | relURL }}">
+      {{ partial "utils/img.html" . }}
     </a>
     {{ end }}
     <h2 class="underline">
