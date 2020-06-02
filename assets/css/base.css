@@ -54,7 +54,7 @@ p {
 }
 
 a {
-  color: var(--darker-green);
+  color: #277978;
   text-decoration: none;
 
   &:visited {
