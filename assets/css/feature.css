@@ -67,10 +67,6 @@
   .feature--main {
     display: flex;
   }
-
-  .feature--content {
-    padding-top: calc(var(--spacing) / 3);
-  }
 }
 
 @media (--viewport-small) {
