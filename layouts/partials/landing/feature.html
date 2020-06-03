@@ -9,5 +9,15 @@
     <p class="feature--text">
       {{ .text }}
     </p>
+    {{ if isset . "tech" }}
+      <ul class="feature--tech-list">
+        {{ range .tech }}
+          <li class="feature--tech-list-item">
+            {{ partial "utils/inline-svg.html" (printf "languages/%s" (lower .)) }}
+            <span>{{ . }}</span>
+          </li>
+        {{ end }}
+      </ul>
+    {{ end }}
   </div>
 </div>
