@@ -129,7 +129,7 @@
 @media (--viewport-small) {
   .hero--main {
     flex-direction: column;
-    padding-top: 2rem;
+    padding-top: 4rem;
     max-height: none;
     height: auto;
     margin-bottom: 4rem;
@@ -142,6 +142,7 @@
 
   .hero--right {
     order: -1;
+    margin-bottom: -2rem;
   }
 
   .hero--left {

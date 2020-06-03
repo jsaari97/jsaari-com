@@ -34,7 +34,7 @@
   --secondary: var(--blue);
   --background: #fafafb;
 
-  --spacing: 4rem;
+  --spacing: 6rem;
 
   --box-shadow: 0 10px 18px -14px rgba(0, 0, 0, 0.225);
 }
@@ -42,12 +42,12 @@
 @media (--viewport-large) {
   :root {
     --light: #859098;
-    --spacing: 6rem;
+    --spacing: 8rem;
   }
 }
 
 @media (--viewport-xlarge) {
   :root {
-    --spacing: 8rem;
+    --spacing: 10rem;
   }
 }
