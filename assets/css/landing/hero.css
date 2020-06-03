@@ -17,22 +17,22 @@
   font-size: 1rem;
 
   & h1 {
-    font-size: 4em;
-    font-weight: 500;
+    font-size: 4rem;
     line-height: 0.95;
-    margin-bottom: 0;
+    margin-bottom: 0.5rem;
 
     & span {
+      display: block;
+      margin-bottom: 0.15em;
       font-size: 0.6em;
-      font-weight: 400;
       color: var(--light);
     }
   }
 
   & h2 {
+    font-size: 1.625rem;
     color: var(--light);
-    font-weight: 400;
-    margin-left: 0.5em;
+    line-height: 1.25;
   }
 }
 
@@ -142,7 +142,7 @@
 
   .hero--right {
     order: -1;
-    margin-bottom: -2rem;
+    margin-bottom: -1rem;
   }
 
   .hero--left {
