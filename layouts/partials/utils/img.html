@@ -13,13 +13,14 @@
     loading="lazy"
     srcset="
     {{ if ge $src.Width `500` }}
-      {{ with $small.RelPermalink }}{{ . }} 500w,{{ end }}
+      {{ with $small.RelPermalink }}{{ . }} 820w,{{ end }}
     {{ end }}
     {{ if ge $src.Width `1000` }}
       {{ $medium.RelPermalink }}{{ else }}{{ $src.RelPermalink }}{{ end }} 1200w
     {{ if ge $src.Width `1500` }}
       {{ with $large.RelPermalink }}, {{ . }} 1500w{{ end }}
     {{ end }}"
+    sizes="(max-width: 672px) 100vw, 960px"
     src="{{ $small.RelPermalink }}"
     width="{{ $img.Width }}"
     height="{{ $img.Height }}"
