@@ -36,8 +36,31 @@
 }
 
 .feature--text {
-  margin: 0 auto;
+  margin: 0 auto 3rem;
   max-width: 24rem;
+}
+
+.feature--tech-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.feature--tech-list-item {
+  margin: 0 0.75rem;
+
+  & > svg {
+    display: block;
+    width: 1.75rem;
+    height: 1.75rem;
+    fill: var(--light);
+    margin: 0 auto;
+  }
+
+  & > span {
+    font-size: 0.825rem;
+  }
 }
 
 @media (--viewport-medium) {

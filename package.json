@@ -6,7 +6,7 @@
   "author": "Jim Saari",
   "license": "MIT",
   "scripts": {
-    "svg": "svgo -r -f static/svg --disable=removeViewBox"
+    "svgo": "svgo -r -f static/svg --disable=removeViewBox"
   },
   "devDependencies": {
     "@babel/cli": "^7.8.4",

@@ -3,9 +3,9 @@ title: About
 type: about
 ---
 
-My name is Jim Saari and I'm an young experienced web developer
-based in Kronoby, Finland. Coding is my passion and I'm always striving to
-improve my craft.
+My name is Jim Saari and I'm an young experienced full stack web developer
+from Kronoby, Finland. Coding is my passion and I'm always striving to
+improve my craft and learn new things.
 
 I have over three years of experience working on exciting and innovative
 projects, independently or in teams, leveraging the power of modern
