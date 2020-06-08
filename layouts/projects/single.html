@@ -1,0 +1,32 @@
+{{ define "main" }}
+
+<div class="page--content">
+  <header class="project-header">
+    <h1 class="underline">{{ .Title }}</h1>
+    <p>{{ .Params.description }}</p>
+    <div class="project--footer">
+      <div class="project--meta">
+        {{ with .Param `homepage` }}
+        <a title="Project homepage" aria-label="Project homepage" href="{{ . }}">
+          {{ partial "utils/inline-svg.html" "home" }}
+        </a>
+        {{ end }}
+        {{ with .Param `repository` }}
+        <a title="Project repository" aria-label="Project repository" href="{{ . }}">
+          {{ partial "utils/inline-svg.html" "github" }}
+        </a>
+        {{ end }}
+      </div>
+      <ul class="project--languages">
+        {{ range .Params.languages }}
+        <li title="Built with {{ . }}" aria-label="Built with {{ . }}">
+          {{ partial "utils/inline-svg.html" (printf "languages/%s" (lower .)) }}
+        </li>
+        {{ end }}
+      </ul>
+    </div>
+  </header>
+  {{ .Content }}
+</div>
+
+{{ end }}

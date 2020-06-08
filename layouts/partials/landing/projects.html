@@ -1,31 +1,7 @@
 <div class="page--content">
-  <h2 class="project--landing-title">My Work</h2>
+  <h2 class="project--landing-title">My Projects</h2>
 
   {{ range first 3 (where .Site.RegularPages "Type" "projects") }}
-  <article class="project--card">
-    <h3 class="underline">{{ .Title }}</h3>
-    <p>{{ .Param `description` }}</p>
-    <div class="project--footer">
-      <div class="project--meta">
-        {{ with .Param `homepage` }}
-        <a title="Project homepage" aria-label="Project homepage" href="{{ . }}">
-          {{ partial "utils/inline-svg.html" "home" }}
-        </a>
-        {{ end }}
-        {{ with .Param `repository` }}
-        <a title="Project repository" aria-label="Project repository" href="{{ . }}">
-          {{ partial "utils/inline-svg.html" "github" }}
-        </a>
-        {{ end }}
-      </div>
-      <ul class="project--languages">
-        {{ range .Params.languages }}
-        <li title="Built with {{ . }}" aria-label="Built with {{ . }}">
-          {{ partial "utils/inline-svg.html" (printf "languages/%s" (lower .)) }}
-        </li>
-        {{ end }}
-      </ul>
-    </div>
-  </article>
+  {{ .Render "li" }}
   {{ end }}
 </div>

@@ -10,6 +10,9 @@
     {{ if and (findRE `^/posts/` $currentPage.RelPermalink) (eq .Identifier "posts") }}
       {{ $class = " active" }}
     {{ end }}
+    {{ if and (findRE `^/projects/` $currentPage.RelPermalink) (eq .Identifier "projects") }}
+      {{ $class = " active" }}
+    {{ end }}
     <li class="nav-item{{ $class }}">
       <a href="{{ .URL }}" title="{{ .Title }}">
         {{ .Title }}

@@ -1,0 +1,12 @@
+.list-header {
+  padding: 2rem 0;
+  margin-bottom: calc(var(--spacing) / 2);
+
+  & > h1 {
+    font-size: 3rem;
+  }
+
+  & > p {
+    font-size: 1.25rem;
+  }
+}
