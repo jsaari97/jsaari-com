@@ -1,5 +1,5 @@
-.list-header {
-  padding: 2rem 0;
+.project-header {
+  padding-top: 2rem;
   margin-bottom: calc(var(--spacing) / 2);
 
   & > h1 {
@@ -9,4 +9,8 @@
   & > p {
     font-size: 1.25rem;
   }
+}
+
+body.page.projects .page--content > * {
+  text-align: left;
 }

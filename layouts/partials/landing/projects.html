@@ -1,5 +1,5 @@
 <div class="page--content">
-  <h2 class="project--landing-title">My Work</h2>
+  <h2 class="project--landing-title">My Projects</h2>
 
   {{ range first 3 (where .Site.RegularPages "Type" "projects") }}
   {{ .Render "li" }}

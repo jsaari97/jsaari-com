@@ -9,7 +9,6 @@
 @import "./gradients.css";
 @import "./feature.css";
 @import "./social-icon.css";
-@import "./project.css";
 @import "./404.css";
 
 /* Landing */
@@ -17,8 +16,9 @@
 @import "./landing/contact.css";
 @import "./landing/project.css";
 
-/* Landing */
+/* Project */
 @import "./project/list.css";
+@import "./project/item.css";
 
 /* Blog */
 @import "./blog/meta.css";
