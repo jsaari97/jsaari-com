@@ -3,7 +3,7 @@ title: Musalink
 description: Share your favorite track with your friend regardless what streaming service they use.
 languages: [TypeScript, React]
 repository: https://github.com/jsaari97/musalink
-# homepage: https://jsaari97.github.io/musalink
+homepage: https://jsaari97.github.io/musalink
 ---
 
 When sharing music with your friends, it can be very frustrating when everyone is using different music streaming services, and the list just keeps on growing, Spotify, Apple Music, Deezer, Tidal.. you name it!
