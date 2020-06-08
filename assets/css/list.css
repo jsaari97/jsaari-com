@@ -1,0 +1,16 @@
+.list-header {
+  padding: 2rem 0;
+  margin-bottom: calc(var(--spacing) / 2);
+
+  & > h1 {
+    font-size: 3rem;
+
+    &::after {
+      height: 0.125em;
+    }
+  }
+
+  & > p {
+    font-size: 1.25rem;
+  }
+}

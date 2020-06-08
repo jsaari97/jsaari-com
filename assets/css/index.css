@@ -5,13 +5,20 @@
 @import "./content.css";
 @import "./footer.css";
 @import "./nav.css";
-@import "./landing/hero.css";
-@import "./landing/contact.css";
+@import "./list.css";
 @import "./gradients.css";
 @import "./feature.css";
 @import "./social-icon.css";
 @import "./project.css";
 @import "./404.css";
+
+/* Landing */
+@import "./landing/hero.css";
+@import "./landing/contact.css";
+@import "./landing/project.css";
+
+/* Landing */
+@import "./project/list.css";
 
 /* Blog */
 @import "./blog/meta.css";
