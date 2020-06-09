@@ -1,7 +1,7 @@
 ---
 title: EResults parser
 description: Parse orienteering results and splits from non-semantic HTML into easy-to-consume JSON data and deploy to Google Cloud as a serverless Cloud Function.
-languages: [TypeScript]
+languages: [TypeScript, CircleCI]
 repository: https://github.com/jsaari97/eresults-parser
 ---
 
