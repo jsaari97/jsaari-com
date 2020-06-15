@@ -2,6 +2,8 @@ baseURL = "https://www.jsaari.com/"
 languageCode = "en"
 title = "Jim Saari Portfolio"
 
+enableRobotsTXT = true
+
 disableKinds = ["taxonomy", "taxonomyTerm"]
 
 summaryLength = 25

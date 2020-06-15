@@ -2,16 +2,16 @@
   <div class="hero--left">
     <div>
       <h1>
-        <span>Hello, I'm</span>Jim Saari
+        <span>Hello, I'm</span>{{ .Site.Params.contact.name }}
       </h1>
       <h2>Full Stack Web Developer</h2>
     </div>
   </div>
-  <div class="hero--right">
+  <div class="hero--right" aria-hidden="true">
     <div class="hero--profile">
       <div class="hero-profile-fill"></div>
       {{ partial "utils/inline-svg.html" "hero-mask-top" }}
-      <img alt="profile picture" src="/images/profile.png">
+      <img alt="profile picture" aria-hidden="true" src="/images/profile.png">
       {{ partial "utils/inline-svg.html" "hero-mask-bottom" }}
     </div>
   </div>
