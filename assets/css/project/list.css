@@ -1,7 +1,7 @@
 .project--card {
   width: calc(var(--content-width) - 2rem);
   max-width: calc(var(--content-max-width) - 2rem);
-  margin: 0 auto calc(var(--spacing) / 4);
+  margin: 0 auto calc(var(--spacing) / 3);
   padding: 1rem;
   border: 1px solid #f1f1f1;
   border-radius: 0.5rem;

@@ -12,6 +12,11 @@
         {{ partial "utils/inline-svg.html" "home" }}
       </a>
       {{ end }}
+      {{ if .Param `npm` }}
+      <a title="{{ .Title }} NPM package" aria-label="{{ .Title }} NPM package" href="{{ .Param `npm` }}">
+        {{ partial "utils/inline-svg.html" "languages/npm" }}
+      </a>
+      {{ end }}
       {{ if .Param `repository` }}
       <a title="{{ .Title }} repository" aria-label="{{ .Title }} repository" href="{{ .Param `repository` }}">
         {{ partial "utils/inline-svg.html" "github" }}
