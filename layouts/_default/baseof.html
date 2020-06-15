@@ -17,9 +17,9 @@
   <header class="site-header">
     {{ partial "nav/index.html" . }}
   </header>
-  <div class="site-content">
+  <main class="site-content">
     {{ block "main" . }}{{ end }}
-  </div>
+  </main>
   {{ block "footer" . }}{{ partial "footer/index.html" . }}{{ end }}
   {{ block "scripts" . }}{{ end }}
 </body>

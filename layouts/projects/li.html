@@ -7,13 +7,13 @@
   <p>{{ .Param `description` }}</p>
   <div class="project--footer">
     <div class="project--meta">
-      {{ with .Param `homepage` }}
-      <a title="Project homepage" aria-label="Project homepage" href="{{ . }}">
+      {{ if .Param `homepage` }}
+      <a title="{{ .Title }} homepage" aria-label="{{ .Title }} homepage" href=".Param `homepage`">
         {{ partial "utils/inline-svg.html" "home" }}
       </a>
       {{ end }}
-      {{ with .Param `repository` }}
-      <a title="Project repository" aria-label="Project repository" href="{{ . }}">
+      {{ if .Param `repository` }}
+      <a title="{{ .Title }} repository" aria-label="{{ .Title }} repository" href="{{ .Param `repository` }}">
         {{ partial "utils/inline-svg.html" "github" }}
       </a>
       {{ end }}
