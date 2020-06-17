@@ -99,6 +99,7 @@
     top: 4rem;
     right: 1rem;
     flex-direction: column;
+    z-index: 2;
 
     & .jsaari-social-icon {
     margin: 0 0 1rem;

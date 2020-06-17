@@ -23,8 +23,7 @@
 
   & > h1 {
     font-size: 2.5rem;
-    margin-bottom: 2rem;
-    line-height: 1.25;
+    margin-bottom: 3rem;
 
     &::after {
       height: 0.175em;

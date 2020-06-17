@@ -1,7 +1,7 @@
 html {
   font-family: var(--body-font);
   font-size: 16px;
-  line-height: 1.7;
+  line-height: 1.75;
   color: var(--body);
 }
 
@@ -46,11 +46,12 @@ thead {
   font-family: var(--header-font);
   color: var(--header);
   letter-spacing: var(--letter-spacing-wide);
-  font-weight: 400;
+  line-height: 1.375;
+  padding-bottom: 0.25em;
 }
 
 p {
-  font-size: 1.175rem;
+  font-size: 1.225rem;
 }
 
 a {

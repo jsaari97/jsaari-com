@@ -1,5 +1,5 @@
 ---
-title: Generate Instagram Basic Display API Token
+title: Generate an Instagram Basic Display API Token
 image: frontend.png
 date: 2020-06-16T16:00:00+03:00
 draft: false
@@ -74,13 +74,11 @@ curl "https://graph.instagram.com/POST_ID?fields=media_type,media_url,timestamp&
 When generating API tokens through the Facebook Developers web UI as described in this guide, you're given an long-lived access token.
 Long-lived access tokens are valid for 60 days and can be refreshed, after which the token will be valid for 60 days again. However if the token expires, you have to generate a new token following the guide above.
 
-To refresh your token using cURL, use the following command:
+To refresh your token using cURL, use the following command to make your token valid for another 60 days:
 
 ```bash
 curl "https://graph.instagram.com/refresh_access_token?grant_type=ig_refresh_token&access_token=MY_API_TOKEN"
 ```
-
-Congratulations, your token is now again valid for 60 days!
 
 ### Rate limiting
 

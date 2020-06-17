@@ -43,6 +43,10 @@
     padding: 2px 4px;
     color: var(--header);
   }
+
+  & > :--heading:not(:first-child) {
+    padding-top: 1.25em;
+  }
 }
 
 .page--content > :--heading,
