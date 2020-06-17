@@ -64,6 +64,13 @@
   }
 }
 
-body.page.posts .page--content > * {
-  text-align: left;
+body.page.posts .page--content {
+  & > * {
+    text-align: left;
+  }
+
+  & > :--heading::after {
+    left: 0;
+    transform: none;
+  }
 }
