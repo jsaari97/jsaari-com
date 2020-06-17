@@ -31,6 +31,10 @@
     overflow-x: auto;
   }
 
+  & strong {
+    color: var(--header);
+  }
+
   & > p > code {
     font-size: 0.925rem;
     background-color: #f1f1f1;
