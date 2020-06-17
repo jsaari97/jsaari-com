@@ -48,6 +48,7 @@ thead {
   letter-spacing: var(--letter-spacing-wide);
   line-height: 1.375;
   padding-bottom: 0.25em;
+  font-weight: 700;
 }
 
 p {
@@ -70,12 +71,4 @@ a {
 
 h2 {
   font-size: 1.75rem;
-}
-
-@media (--viewport-small) {
-  :--heading,
-  hgroup,
-  thead {
-    font-weight: 500;
-  }
 }

@@ -6,8 +6,8 @@
 @custom-selector :--heading h1, h2, h3, h4, h5, h6;
 
 :root {
-  --header-font: "Lexend Deca", cursive;
-  --body-font: "Crimson Text", cursive;
+  --header-font: "Source Sans Pro", sans-serif;
+  --body-font: "Crimson Text", serif, cursive;
 
   --letter-spacing-wide: 0.0375em;
 

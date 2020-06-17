@@ -2,7 +2,7 @@
 title: "Azure Kubernetes Config Tool"
 date: 2020-06-15T19:41:00+03:00
 languages: [TypeScript, Azure]
-description: "Generate Kubernetes Secrets from Azure App Configuration and Key Vault data."
+description: "Populate Kubernetes Secrets with data from Azure App Configuration and Key Vault."
 repository: "https://github.com/jsaari97/azure-k8s-config"
 homepage: ""
 npm: "https://www.npmjs.com/package/azure-k8s-config"
