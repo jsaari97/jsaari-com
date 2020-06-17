@@ -71,3 +71,11 @@ a {
 h2 {
   font-size: 1.75rem;
 }
+
+@media (--viewport-small) {
+  :--heading,
+  hgroup,
+  thead {
+    font-weight: 500;
+  }
+}
