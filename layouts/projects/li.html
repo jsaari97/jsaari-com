@@ -8,7 +8,7 @@
   <div class="project--footer">
     <div class="project--meta">
       {{ if .Param `homepage` }}
-      <a title="{{ .Title }} homepage" aria-label="{{ .Title }} homepage" href=".Param `homepage`">
+      <a title="{{ .Title }} homepage" aria-label="{{ .Title }} homepage" href="{{ .Param `homepage` }}">
         {{ partial "utils/inline-svg.html" "home" }}
       </a>
       {{ end }}
