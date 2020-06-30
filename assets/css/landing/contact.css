@@ -25,16 +25,20 @@
   font-size: 1.125rem;
   text-align: center;
 
-  & li:first-of-type {
+  & > li:first-of-type {
     font-size: 1.375rem;
     font-weight: 500;
     color: var(--header);
   }
 
-  & li {
+  & > li {
     letter-spacing: 0.0425em;
+    line-height: 2.5rem;
+    height: 2.5rem;
 
     & > a {
+      display: block;
+
       color: currentColor;
       text-decoration-color: var(--primary);
     }
@@ -48,7 +52,7 @@
   padding: 0;
   margin: 0;
 
-  & li:not(:last-of-type) {
+  & > li:not(:last-of-type) {
     margin-right: 0.5rem;
   }
 }
