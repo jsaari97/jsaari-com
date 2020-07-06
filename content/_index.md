@@ -10,7 +10,7 @@ features:
   - title: Backend
     image: /images/backend.png
     text: |
-      Designing secure, pragmatic REST and GraphQL APIs that communicate with databases and third-party integrations, or both.
+      Designing secure, pragmatic REST and GraphQL APIs that communicate with databases and third-party integrations.
     tech: [NodeJS, GraphQL, Postgresql]
   - title: DevOps
     image: /images/devops.png
