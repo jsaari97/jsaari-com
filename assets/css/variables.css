@@ -51,3 +51,9 @@
     --spacing: 10rem;
   }
 }
+
+@media (--viewport-small) {
+  :root {
+    --content-width: calc(100% - 2rem);
+  }
+}

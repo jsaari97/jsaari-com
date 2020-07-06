@@ -47,6 +47,11 @@
   & > :--heading:not(:first-child) {
     padding-top: 1.25em;
   }
+
+  & > ol,
+  & > ul {
+    width: auto;
+  }
 }
 
 .page--content > :--heading,
