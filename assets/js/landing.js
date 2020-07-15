@@ -1,15 +1,15 @@
-const heroImageLoader = () => {
-  const img = document.querySelector('.hero--profile > img')
+function heroImageLoader() {
+  const img = document.querySelector(".hero--profile > img");
 
   const handleLoad = () => {
-    img.parentElement.classList.add('loaded');
-  }
+    img.parentElement.classList.add("loaded");
+  };
 
   if (img.complete) {
-    handleLoad()
+    handleLoad();
   } else {
-    img.addEventListener('load', handleLoad)
+    img.addEventListener("load", handleLoad);
   }
 }
 
-heroImageLoader()
+heroImageLoader();
