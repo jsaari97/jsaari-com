@@ -1,5 +1,7 @@
 ---
 title: Generate an Instagram Basic Display API Token
+description: |
+  A tutorial blog post on how to setup an Instagram App to be able to generate an Instagram Basic Display API token, the new API that replaces the old Legacy API and provides a simple and intuitive interface.
 image: frontend.png
 date: 2020-06-16T16:00:00+03:00
 draft: false
