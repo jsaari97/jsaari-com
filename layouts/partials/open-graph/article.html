@@ -1,0 +1,11 @@
+{{ $img := "/images/og-image.jpg" }}
+
+{{ if isset .Params "image" }}
+{{ $src := (.Page.Resources.GetMatch .Params.image).Fill "1200x630 jpg" }}
+{{ $img = $src.Permalink }}
+{{ end }}
+
+<meta property="og:type" content="article">
+<meta property="og:image" content="{{ $img | absURL }}">
+
+{{ partial "open-graph/common.html" . }}
