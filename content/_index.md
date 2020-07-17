@@ -1,6 +1,10 @@
 ---
 title: Home
 
+sitemap:
+  priority: 1.0
+  changeFreq: daily
+
 features:
   - title: Frontend
     image: /images/frontend.png
