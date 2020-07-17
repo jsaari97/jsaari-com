@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Full Stack Developer
 
 sitemap:
   priority: 1.0
