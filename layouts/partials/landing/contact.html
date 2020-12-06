@@ -6,16 +6,20 @@
       <li>
         {{ .Site.Params.contact.name }}
       </li>
-      <li>
-        <a href="tel:{{ .Site.Params.contact.phone }}">
-          {{ .Site.Params.contact.phone }}
-        </a>
-      </li>
+      {{ if .Site.Params.contact.phone }}
+        <li>
+          <a href="tel:{{ .Site.Params.contact.phone }}">
+            {{ .Site.Params.contact.phone }}
+          </a>
+        </li>
+      {{ end }}
+      {{ if .Site.Params.contact.email }}
       <li>
         <a href="mailto:{{ .Site.Params.contact.email }}">
           {{ .Site.Params.contact.email }}
         </a>
       </li>
+      {{ end }}
       <li>
         {{ .Site.Params.contact.location }}
       </li>

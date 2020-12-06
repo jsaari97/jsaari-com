@@ -3,5 +3,5 @@
   command = "hugo --gc"
 
 [context.production.environment]
-  HUGO_VERSION = "0.76.5"
+  HUGO_VERSION = "0.79.0"
   HUGO_ENV = "production"
