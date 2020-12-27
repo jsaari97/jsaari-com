@@ -1,3 +1,19 @@
 .project--landing-title {
   margin-bottom: calc(var(--spacing) / 3);
 }
+
+.list--show-more {
+  display: flex;
+  justify-content: center;
+
+  & > a {
+    color: var(--header);
+    font-family: var(--header-font);
+    line-height: 2;
+
+    &::after {
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+}

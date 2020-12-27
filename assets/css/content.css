@@ -55,7 +55,7 @@
 }
 
 .page--content > :--heading,
-:--heading.underline {
+.underline {
   position: relative;
 
   &::after {

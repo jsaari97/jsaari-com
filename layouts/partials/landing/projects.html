@@ -4,4 +4,8 @@
   {{ range first 3 (where .Site.RegularPages "Type" "projects") }}
   {{ .Render "li" }}
   {{ end }}
+
+  <div class="list--show-more">
+  <a class="underline" href="/projects">View more projects</a>
+  </div>
 </div>
