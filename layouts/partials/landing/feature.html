@@ -1,18 +1,18 @@
-<div class="feature--main">
-  <div class="feature--picture-container">
-    <img alt="{{ .title }} illustration" class="feature--picture" src="{{ .image }}" />
+<div class="feature__main">
+  <div class="feature__picture-container">
+    <img alt="{{ .title }} illustration" class="feature__picture" src="{{ .image }}" />
   </div>
-  <div class="feature--content">
-    <h3 class="feature--title underline center">
+  <div class="feature__content">
+    <h3 class="feature__title underline center">
       {{ .title }}
     </h3>
-    <p class="feature--text">
+    <p class="feature__text">
       {{ .text }}
     </p>
     {{ if isset . "tech" }}
-      <ul class="feature--tech-list">
+      <ul class="feature__tech-list">
         {{ range .tech }}
-          <li class="feature--tech-list-item">
+          <li class="feature__tech-list-item">
             {{ partial "utils/inline-svg.html" (printf "languages/%s" (lower .)) }}
             <span>{{ . }}</span>
           </li>

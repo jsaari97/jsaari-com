@@ -1,5 +1,5 @@
 function heroImageLoader() {
-  const img = document.querySelector(".hero--profile > img");
+  const img = document.querySelector(".hero__profile > img");
 
   const handleLoad = () => {
     img.parentElement.classList.add("loaded");

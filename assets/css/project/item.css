@@ -12,6 +12,6 @@
   }
 }
 
-body.page.projects .page--content > * {
+body.page.projects .page__content > * {
   text-align: left;
 }

@@ -1,4 +1,4 @@
-.footer--main {
+.footer__main {
   font-size: 0.875rem;
   padding: 1rem 0 1.5rem;
 
@@ -36,11 +36,11 @@
 }
 
 @media (--viewport-small) {
-  .footer--main {
+  .footer__main {
     font-size: 0.925rem;
   }
 
-  .footer--main span {
+  .footer__main span {
     flex: 0 0 100%;
     text-align: center;
 

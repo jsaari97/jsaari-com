@@ -1,4 +1,4 @@
-.nav--main {
+.nav__main {
   position: relative;
   display: flex;
   align-items: center;
@@ -7,7 +7,7 @@
   margin: 0 auto;
 }
 
-.nav--branding {
+.nav__branding {
   &,
   & svg {
     width: 2.5rem;
@@ -19,7 +19,7 @@
   }
 }
 
-.nav--menu {
+.nav__menu {
   display: flex;
   list-style: none;
   padding: 0;
@@ -60,7 +60,7 @@
   }
 }
 
-.nav--social-container {
+.nav__social-container {
   display: flex;
 
   & .jsaari-social-icon {
@@ -73,16 +73,16 @@
 }
 
 @media (--viewport-small) {
-  .nav--main {
+  .nav__main {
     padding: 1rem;
     align-items: flex-start;
   }
 
-  .nav--branding svg {
+  .nav__branding svg {
     transform: none;
   }
 
-  .nav--menu {
+  .nav__menu {
     margin-right: 0.25rem;
 
     & .nav-item {
@@ -94,7 +94,7 @@
     }
   }
 
-  .nav--social-container {
+  .nav__social-container {
     position: absolute;
     top: 4rem;
     right: 1rem;

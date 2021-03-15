@@ -1,4 +1,4 @@
-.landing--contact-main {
+.landing__contact-main {
   display: flex;
   max-width: 42rem;
   width: var(--container-width);
@@ -7,7 +7,7 @@
   align-items: center;
 }
 
-.landing--contact-title {
+.landing__contact-title {
   font-size: 2rem;
   text-align: center;
   margin-bottom: 2rem;
@@ -58,7 +58,7 @@
 }
 
 @media (--viewport-small) {
-  .landing--contact-main {
+  .landing__contact-main {
     flex-direction: column;
   }
 }

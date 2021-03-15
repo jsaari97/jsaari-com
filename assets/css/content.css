@@ -1,4 +1,4 @@
-.page--content {
+.page__content {
   margin-bottom: var(--spacing);
 
   & > * {
@@ -54,7 +54,7 @@
   }
 }
 
-.page--content > :--heading,
+.page__content > :--heading,
 .underline {
   position: relative;
 
@@ -77,7 +77,7 @@
 }
 
 @media (--viewport-small) {
-  .page--content {
+  .page__content {
     & > :--heading {
       text-align: center;
 

@@ -1,9 +1,9 @@
-<nav class="nav--main">
-  <a title="Home" aria-label="Home" class="nav--branding" href="/">
+<nav class="nav__main">
+  <a title="Home" aria-label="Home" class="nav__branding" href="/">
     {{ partial "utils/inline-svg.html" "logo" }}
   </a>
 
-  <ul class="nav--menu">
+  <ul class="nav__menu">
     {{ $currentPage := . }}
     {{ range .Site.Menus.main }}
     {{ $class := cond (or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .)) " active" "" }}
@@ -21,7 +21,7 @@
     {{ end }}
   </ul>
 
-  <div class="nav--social-container">
+  <div class="nav__social-container">
     {{ partial "common/social-icon.html" .Site.Params.social.linkedin }}
     {{ partial "common/social-icon.html" .Site.Params.social.github }}
   </div>

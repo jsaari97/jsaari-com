@@ -4,12 +4,12 @@
 
 {{ define "main" }}
 
-<div class="page--content">
+<div class="page__content">
   <header class="project-header">
     <h1 class="underline">{{ .Title }}</h1>
     <p>{{ .Params.description }}</p>
-    <div class="project--footer">
-      <div class="project--meta">
+    <div class="project__footer">
+      <div class="project__meta">
         {{ if .Param `homepage` }}
         <a title="{{ .Title }} homepage" aria-label="{{ .Title }} homepage" href="{{ .Param `homepage` }}">
           {{ partial "utils/inline-svg.html" "home" }}
@@ -26,7 +26,7 @@
         </a>
         {{ end }}
       </div>
-      <ul class="project--languages">
+      <ul class="project__languages">
         {{ range .Params.languages }}
         <li title="Built with {{ . }}" aria-label="Built with {{ . }}">
           {{ partial "utils/inline-svg.html" (printf "languages/%s" (lower .)) }}

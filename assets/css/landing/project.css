@@ -1,8 +1,8 @@
-.project--landing-title {
+.project__landing-title {
   margin-bottom: calc(var(--spacing) / 3);
 }
 
-.list--show-more {
+.list__show-more {
   display: flex;
   justify-content: center;
 

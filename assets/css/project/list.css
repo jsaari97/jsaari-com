@@ -1,4 +1,4 @@
-.project--card {
+.project__card {
   width: calc(var(--content-width) - 2rem);
   max-width: calc(var(--content-max-width) - 2rem);
   margin: 0 auto calc(var(--spacing) / 3);
@@ -17,11 +17,11 @@
   }
 }
 
-.project--footer {
+.project__footer {
   display: flex;
 }
 
-.project--languages {
+.project__languages {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -44,7 +44,7 @@
   }
 }
 
-.project--meta {
+.project__meta {
   display: flex;
 
   &::after {

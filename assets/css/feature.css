@@ -1,10 +1,10 @@
-.feature--container {
+.feature__container {
   max-width: var(--container-max-width);
   width: var(--container-width);
   margin: 0 auto;
 }
 
-.feature--main {
+.feature__main {
   margin-bottom: var(--spacing);
 
   & > div {
@@ -16,38 +16,38 @@
   }
 }
 
-.feature--picture-container {
+.feature__picture-container {
   display: flex;
   justify-content: center;
 }
 
-.feature--picture {
+.feature__picture {
   width: 20rem;
   height: 20rem;
   object-fit: contain;
 }
 
-.feature--content {
+.feature__content {
   text-align: center;
 }
 
-.feature--title {
+.feature__title {
   font-size: 1.75rem;
 }
 
-.feature--text {
+.feature__text {
   margin: 0 auto 3rem;
   max-width: 24rem;
 }
 
-.feature--tech-list {
+.feature__tech-list {
   list-style: none;
   padding: 0;
   display: flex;
   justify-content: center;
 }
 
-.feature--tech-list-item {
+.feature__tech-list-item {
   margin: 0 0.75rem;
 
   & > svg {
@@ -64,22 +64,22 @@
 }
 
 @media (--viewport-medium) {
-  .feature--main {
+  .feature__main {
     display: flex;
   }
 }
 
 @media (--viewport-small) {
-  .feature--picture-container {
+  .feature__picture-container {
     margin-bottom: 2rem;
   }
 
-  .feature--picture {
+  .feature__picture {
     width: 14rem;
     height: 14rem;
   }
 
-  .feature--text {
+  .feature__text {
     max-width: var(--content-max-width);
     margin-left: auto;
     margin-right: auto;

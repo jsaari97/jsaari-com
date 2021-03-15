@@ -63,7 +63,7 @@
   }
 }
 
-body.page.posts .page--content {
+body.page.posts .page__content {
   & > * {
     text-align: left;
   }
