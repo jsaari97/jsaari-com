@@ -1,0 +1,6 @@
+<div class="avatar{{if .static}} static{{end}}">
+  <div class="avatar__fill"></div>
+  {{ partial "utils/inline-svg.html" "hero-mask-top" }}
+  <img alt="profile picture" aria-hidden="true" src="/images/profile.png" />
+  {{ partial "utils/inline-svg.html" "hero-mask-bottom" }}
+</div>

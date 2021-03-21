@@ -1,10 +1,8 @@
 .landing__contact-main {
-  display: flex;
   max-width: 42rem;
   width: var(--container-width);
   margin: 0 auto var(--spacing);
-  justify-content: center;
-  align-items: center;
+  text-align: center;
 }
 
 .landing__contact-title {
@@ -18,7 +16,7 @@
   }
 }
 
-.landing--contact-list {
+.landing__contact-list {
   list-style: none;
   padding: 0;
   margin: 0 0 1rem;

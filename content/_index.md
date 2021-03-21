@@ -15,10 +15,10 @@ features:
     image: /images/backend.png
     text: |
       Designing secure, pragmatic REST and GraphQL APIs that communicate with databases and third-party integrations.
-    tech: [NodeJS, GraphQL, Postgresql]
+    tech: [NodeJS, Elixir, GraphQL, Postgresql]
   - title: DevOps
     image: /images/devops.png
     text: |
       Automating deployment cycles using agile CI/CD tools to build and ship dockerized applications to the cloud using Kubernetes container orchestration.
-    tech: [Docker, Kubernetes, Git]
+    tech: [Docker, Kubernetes, Git, Google Cloud]
 ---

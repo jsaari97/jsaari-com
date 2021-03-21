@@ -13,7 +13,7 @@
       <ul class="feature__tech-list">
         {{ range .tech }}
           <li class="feature__tech-list-item">
-            {{ partial "utils/inline-svg.html" (printf "languages/%s" (lower .)) }}
+            {{ partial "utils/inline-svg.html" (printf "languages/%s" (replaceRE "(\\s)" "_" (lower .))) }}
             <span>{{ . }}</span>
           </li>
         {{ end }}

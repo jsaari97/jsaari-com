@@ -1,6 +1,6 @@
 .post-header {
   max-width: 72rem;
-  margin-bottom: calc(var(--spacing) / 1.25);
+  margin-bottom: calc(var(--spacing) / 4);
   padding-top: 2rem;
 
   & > .img {
@@ -23,7 +23,7 @@
 
   & > h1 {
     font-size: 2.5rem;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 
     &::after {
       height: 0.175em;
@@ -37,23 +37,9 @@
     display: flex;
     align-items: center;
 
-    & > img {
-      height: 3em;
-      width: 3em;
-      border-radius: 50%;
-    }
-
     & > div {
       margin-left: 1rem;
       line-height: 1;
-
-      & > address {
-        font-family: var(--header-font);
-        color: var(--header);
-        display: block;
-        margin-bottom: 0.25rem;
-        font-size: 1.25em;
-      }
 
       & > time {
         display: block;
@@ -71,5 +57,44 @@ body.page.posts .page__content {
   & > :--heading::after {
     left: 0;
     transform: none;
+  }
+}
+
+.post-author {
+  display: flex;
+  margin-top: calc(var(--spacing) * 0.75);
+
+  & > .avatar {
+    flex: 0 0 auto;
+    font-size: 8rem;
+  }
+}
+
+.post-author-bio {
+  margin: 1rem 0 0 2rem;
+
+  & > address {
+    font-family: var(--header-font);
+    color: var(--header);
+    font-style: normal;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 0;
+    font-size: 1.5rem;
+  }
+
+  & > p {
+    line-height: 1;
+    font-size: 1rem;
+  }
+}
+
+@media (--viewport-small) {
+  .post-author > .avatar {
+    font-size: 6.75rem;
+  }
+
+  .post-author-bio {
+    margin-left: 1.25rem;
   }
 }

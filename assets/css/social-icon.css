@@ -3,7 +3,7 @@ a.jsaari-social-icon {
   height: 1.875rem;
   width: 1.875rem;
   border-radius: 50%;
-  border: 1px solid var(--light);
+  border: 2px solid var(--light);
   display: flex;
   align-items: center;
   justify-content: center;

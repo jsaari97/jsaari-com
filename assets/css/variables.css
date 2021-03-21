@@ -7,7 +7,7 @@
 
 :root {
   --header-font: "Source Sans Pro", sans-serif;
-  --body-font: "Crimson Text", serif, cursive;
+  --body-font: "EB Garamond", serif, cursive;
 
   --letter-spacing-wide: 0.0375em;
 
@@ -17,7 +17,7 @@
   --content-width: calc(100% - 4rem);
   --content-max-width: 38rem;
 
-  --body: #495666;
+  --body: #333c48;
   --header: #0c2539;
   --light: #697782;
 
