@@ -1,0 +1,2 @@
+{{ $count := int (index .Params 0) | sub (int (now.Format "2006")) }}
+{{ index $.Site.Data.numbers $count }}
