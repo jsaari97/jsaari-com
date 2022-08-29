@@ -38,7 +38,7 @@
       display: block;
 
       color: currentColor;
-      text-decoration-color: var(--primary);
+      text-decoration-color: var(--primary-light);
     }
   }
 }

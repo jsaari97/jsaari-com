@@ -2,6 +2,8 @@ baseURL = "https://www.jsaari.com/"
 languageCode = "en"
 title = "Jim Saari"
 
+summaryLength = 25
+
 [security]
   enableInlineShortcodes = false
   [security.exec]
@@ -16,8 +18,6 @@ title = "Jim Saari"
 enableRobotsTXT = true
 
 disableKinds = ["taxonomy", "taxonomyTerm"]
-
-summaryLength = 25
 
 [menu]
   [[menu.main]]
@@ -37,7 +37,7 @@ summaryLength = 25
     weight = 30
 
 [params]
-  description = "Personal developer portfolio website for Jim Saari, a passionate full stack web developer from Vaasa, Finland. Specialized working with modern JavaScript web applications leveraging the latest frontend, backend and devops practices."
+  description = "Personal developer portfolio website for Jim Saari, a passionate full stack web developer living in Turku, Finland. Specialized working with modern JavaScript web applications leveraging the latest frontend, backend and devops practices."
   repoURL = "https://github.com/jsaari97/jsaari-com"
   dateFormat = "2 January, 2006"
   [params.social]
@@ -51,7 +51,7 @@ summaryLength = 25
     name = "Jim Saari"
     nameShort = "Jim"
     phone = ""
-    location = "Vaasa, Finland"
+    location = "Turku, Finland"
     email = "jim.saari97@gmail.com"
 
 [imaging]

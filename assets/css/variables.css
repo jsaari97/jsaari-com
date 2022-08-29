@@ -6,19 +6,19 @@
 @custom-selector :--heading h1, h2, h3, h4, h5, h6;
 
 :root {
-  --header-font: "Source Sans Pro", sans-serif;
-  --body-font: "EB Garamond", serif, cursive;
+  --header-font: "Source Serif 4", sans-serif;
+  --body-font: "Source Serif 4", serif, cursive;
 
-  --letter-spacing-wide: 0.0375em;
+  --letter-spacing-wide: 0.0175em;
 
   --container-width: calc(100% - 4rem);
   --container-max-width: 56rem;
 
   --content-width: calc(100% - 4rem);
-  --content-max-width: 38rem;
+  --content-max-width: 40rem;
 
   --body: #333c48;
-  --header: #0c2539;
+  --header: #030d17;
   --light: #697782;
 
   --blue: #1d2465;
@@ -33,6 +33,8 @@
   --primary: var(--green);
   --secondary: var(--blue);
   --background: #fafafb;
+
+  --primary-light: #ddeec3;
 
   --spacing: 6rem;
 

@@ -1,7 +1,7 @@
 html {
   font-family: var(--body-font);
   font-size: 16px;
-  line-height: 1.6;
+  line-height: 1.675;
   color: var(--body);
 }
 
@@ -37,7 +37,7 @@ pre,
 table,
 fieldset,
 hr {
-  margin: 0 0 1.5rem;
+  margin: 0 0 1.75rem;
 }
 
 :--heading,
@@ -47,24 +47,24 @@ thead {
   color: var(--header);
   letter-spacing: var(--letter-spacing-wide);
   line-height: 1.375;
-  padding-bottom: 0.25em;
-  font-weight: 700;
+  padding-bottom: 0.075em;
+  font-weight: 600;
 }
 
 p {
-  font-size: 1.225rem;
+  font-size: 1.075rem;
 }
 
 a {
-  color: #277978;
+  color: #407899;
   text-decoration: none;
 
   &:visited {
-    color: #1b7777;
+    color: #5292b7;
   }
 
   &:hover {
-    color: #166d66;
+    color: #366681;
     text-decoration: underline;
   }
 }

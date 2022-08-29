@@ -1,4 +1,5 @@
 .page__content {
+  font-size: 1.075rem;
   margin-bottom: var(--spacing);
 
   & > * {
@@ -18,7 +19,7 @@
   }
 
   & li {
-    font-size: 1.225rem;
+    font-size: 1em;
   }
 
   & pre {
@@ -66,8 +67,7 @@
     width: 4rem;
     height: 0.125em;
     min-height: 0.225rem;
-    background-color: var(--primary);
-    border-radius: 0.25rem;
+    background-color: var(--primary-light);
   }
 
   &.center::after {

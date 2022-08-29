@@ -54,7 +54,7 @@
         width: 50%;
         height: 4px;
         border-radius: 2px;
-        background-color: var(--primary);
+        background-color: var(--primary-light);
       }
     }
   }
