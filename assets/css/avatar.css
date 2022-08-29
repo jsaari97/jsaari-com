@@ -5,6 +5,7 @@
   overflow: hidden;
   transform: translate3d(0, -15%, 0) rotate(-15deg);
   position: relative;
+  pointer-events: none;
 
   & img,
   & svg {
