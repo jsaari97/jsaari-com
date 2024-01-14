@@ -39,22 +39,6 @@
   }
 }
 
-.footer__main__waves {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  width: 100vw;
-  display: flex;
-  z-index: -1;
-  min-height: 16rem;
-
-  & > svg {
-    opacity: 0.25;
-    fill: var(--primary-light);
-  }
-}
-
 @media (--viewport-small) {
   .footer__main {
     font-size: 0.925rem;

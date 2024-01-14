@@ -1,7 +1,7 @@
 .post-item {
   margin: 0 auto calc(var(--spacing) / 1.5);
   background-color: #fff;
-  border-radius: 0.5rem;
+  border-radius: 1rem;
   box-shadow: var(--box-shadow);
   border: 1px solid #f1f1f1;
   overflow: hidden;

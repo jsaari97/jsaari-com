@@ -62,14 +62,7 @@
 
 .nav__social-container {
   display: flex;
-
-  & .jsaari-social-icon {
-    margin: 0 0.75rem 0 0;
-
-    &:last-of-type {
-      margin-right: 0;
-    }
-  }
+  gap: 1rem;
 }
 
 @media (--viewport-small) {
@@ -97,16 +90,9 @@
   .nav__social-container {
     position: absolute;
     top: 4rem;
-    right: 1rem;
+    right: 1.25rem;
+    gap: 1.5rem;
     flex-direction: column;
     z-index: 2;
-
-    & .jsaari-social-icon {
-    margin: 0 0 1rem;
-
-    &:last-of-type {
-      margin-bottom: 0;
-    }
-  }
   }
 }

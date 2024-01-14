@@ -50,9 +50,6 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   [params.contact]
     name = "Jim Saari"
     nameShort = "Jim"
-    phone = ""
-    location = "Turku, Finland"
-    email = "jim.saari97@gmail.com"
 
 [imaging]
 resampleFilter = "box"

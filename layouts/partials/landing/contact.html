@@ -1,27 +1,5 @@
 <div class="landing__contact-main">
   <h3 class="landing__contact-title underline">Get in touch!</h3>
-  <ul class="landing__contact-list">
-    <li>
-      {{ .Site.Params.contact.name }}
-    </li>
-    {{ if .Site.Params.contact.phone }}
-      <li>
-        <a href="tel:{{ .Site.Params.contact.phone }}">
-          {{ .Site.Params.contact.phone }}
-        </a>
-      </li>
-    {{ end }}
-    {{ if .Site.Params.contact.email }}
-    <li>
-      <a href="mailto:{{ .Site.Params.contact.email }}">
-        {{ .Site.Params.contact.email }}
-      </a>
-    </li>
-    {{ end }}
-    <li>
-      {{ .Site.Params.contact.location }}
-    </li>
-  </ul>
   <ul class="landing-contact-social">
     <li>
       {{ partial "common/social-icon.html" .Site.Params.social.linkedin }}

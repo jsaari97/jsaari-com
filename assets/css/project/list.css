@@ -4,7 +4,7 @@
   margin: 0 auto calc(var(--spacing) / 3);
   padding: 1.5rem;
   border: 1px solid #f1f1f1;
-  border-radius: 0.5rem;
+  border-radius: 1rem;
   background-color: #fff;
   box-shadow: var(--box-shadow);
 
