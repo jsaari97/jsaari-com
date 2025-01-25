@@ -1,6 +1,7 @@
 <div class="feature__main">
   <div class="feature__picture-container">
-    <img alt="{{ .title }} illustration" class="feature__picture" src="{{ .image }}" />
+    {{ $image := (resources.Get .image).Process "webp" }}
+    <img alt="{{ .title }} illustration" class="feature__picture" src="{{$image.RelPermalink}}" width="{{$image.Width}}" height="{{$image.Height}}" />
   </div>
   <div class="feature__content">
     <h3 class="feature__title center">

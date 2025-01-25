@@ -1,7 +1,7 @@
 <div class="avatar{{if .static}} static{{end}}">
   <div class="avatar__fill"></div>
   {{ partial "utils/inline-svg.html" "hero-mask-top" }}
-  {{ with resources.Get "images/profile.png" }}
+  {{ with (resources.Get "images/profile.png").Process "webp" }}
   <img alt="profile picture" aria-hidden="true" src="{{.RelPermalink}}" width="{{.Width}}" height="{{.Height}}" />
   {{ end }}
   {{ partial "utils/inline-svg.html" "hero-mask-bottom" }}
