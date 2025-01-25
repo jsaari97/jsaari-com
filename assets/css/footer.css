@@ -10,12 +10,12 @@
     align-items: center;
     flex-wrap: wrap;
     margin: 0 auto;
+    gap: 1rem;
     width: var(--container-width);
     max-width: var(--container-max-width);
   }
 
   & a {
-    margin: 0 0.25rem;
     color: var(--body);
 
     &:first-of-type {
@@ -25,17 +25,6 @@
     &:last-of-type {
       margin-right: 0;
     }
-  }
-
-  & span::before {
-    content: "";
-    height: 1em;
-    width: 2px;
-    vertical-align: middle;
-    display: inline-block;
-    opacity: 0.5;
-    background-color: var(--secondary);
-    margin: 0 0.75rem 0.175em;
   }
 }
 

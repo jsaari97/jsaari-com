@@ -62,7 +62,7 @@
 
 .nav__social-container {
   display: flex;
-  gap: 1rem;
+  gap: 1.5rem;
 }
 
 @media (--viewport-small) {

@@ -55,27 +55,6 @@
   }
 }
 
-.page__content > :--heading,
-.underline {
-  position: relative;
-
-  &::after {
-    position: absolute;
-    content: "";
-    left: 0;
-    bottom: -0.325rem;
-    width: 4rem;
-    height: 0.125em;
-    min-height: 0.225rem;
-    background-color: var(--primary-light);
-  }
-
-  &.center::after {
-    left: 50%;
-    transform: translateX(-50%);
-  }
-}
-
 @media (--viewport-small) {
   .page__content {
     & > :--heading {

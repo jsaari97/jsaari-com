@@ -39,7 +39,7 @@
     user-select: none;
     pointer-events: none;
     transform: rotate(15deg) translate3d(15%, 25%, 0);
-    filter: drop-shadow(4px 6px 4px rgba(0, 0, 25, 0.1)) brightness(1.05);
+    filter: drop-shadow(4px 5px 4px rgba(0, 0, 25, 0.1)) brightness(1.1) contrast(1.05) grayscale(1);
   }
 }
 

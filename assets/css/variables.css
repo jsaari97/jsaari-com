@@ -6,7 +6,7 @@
 @custom-selector :--heading h1, h2, h3, h4, h5, h6;
 
 :root {
-  --header-font: "Source Serif 4", sans-serif;
+  --header-font: "Source Serif 4", serif;
   --body-font: "Source Serif 4", serif, cursive;
 
   --letter-spacing-wide: 0.0175em;

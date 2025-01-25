@@ -4,7 +4,7 @@ define "main" }}
 <div class="page__content">
   <header class="post-header">
     {{ partial "utils/img.html" . }}
-    <h1 class="underline">{{ .Title }}</h1>
+    <h1>{{ .Title }}</h1>
     <div class="post-meta">
       <span>
         <time datetime="{{ .Date.Format `2006-01-02T15:04:05Z0700` }}">
@@ -20,7 +20,7 @@ define "main" }}
     {{ partial "common/avatar.html" (dict "static" true) }}
     <div class="post-author-bio">
       <address>{{ .Site.Params.contact.name }}</address>
-      <p>Software Developer</p>
+      <p>Developer</p>
     </div>
   </div>
 </div>

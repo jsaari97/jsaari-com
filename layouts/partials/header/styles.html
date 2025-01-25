@@ -1,4 +1,4 @@
-{{ $style := resources.Get "css/index.css" | resources.PostCSS (dict "config" "./postcss.config.js" "inlineImports" true) }}
+{{ $style := resources.Get "css/index.css" | css.PostCSS (dict "config" "./postcss.config.js" "inlineImports" true) }}
 <link rel="stylesheet" href="{{ $style.RelPermalink }}">
 
 <style>
