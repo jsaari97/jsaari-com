@@ -39,24 +39,6 @@
       color: currentColor;
       text-decoration: none;
     }
-
-    &.active {
-      position: relative;
-      color: var(--header);
-
-      &::before {
-        content: "";
-        position: absolute;
-        bottom: -4px;
-        left: 0;
-        right: 0;
-        margin: 0 auto;
-        width: 50%;
-        height: 4px;
-        border-radius: 2px;
-        background-color: var(--primary-light);
-      }
-    }
   }
 }
 

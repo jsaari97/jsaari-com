@@ -22,9 +22,10 @@
 }
 
 .feature__picture {
-  width: 20rem;
-  height: 20rem;
+  width: 22rem;
+  height: 22rem;
   object-fit: contain;
+  transform: scale(1.05);
 }
 
 .feature__content {
@@ -76,8 +77,8 @@
   }
 
   .feature__picture {
-    width: 14rem;
-    height: 14rem;
+    width: 16rem;
+    height: 16rem;
   }
 
   .feature__text {
