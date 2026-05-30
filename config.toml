@@ -1,5 +1,5 @@
 baseURL = "https://www.jsaari.com/"
-languageCode = "en"
+locale = "en"
 title = "Jim Saari"
 
 summaryLength = 25
@@ -7,7 +7,7 @@ summaryLength = 25
 [security]
   enableInlineShortcodes = false
   [security.exec]
-    allow = ['^dart-sass-embedded$', '^go$', '^npx$', '^postcss$', '^babel$']
+    allow = ['^dart-sass-embedded$', '^go$', '^npx$', '^postcss$', '^babel$', '^node$']
     osEnv = ['(?i)^(PATH|PATHEXT|APPDATA|TMP|TEMP|TERM)$']
   [security.funcs]
     getenv = ['^HUGO_']

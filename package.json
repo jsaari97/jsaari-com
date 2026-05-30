@@ -13,7 +13,7 @@
     "@babel/core": "^7.9.6",
     "@babel/preset-env": "^7.9.6",
     "core-js": "^3.6.5",
-    "cssnano": "^7.0.6",
+    "cssnano": "^8.0.1",
     "postcss": "^8.1.1",
     "postcss-cli": "^11.0.0",
     "postcss-import": "^16.1.0",
